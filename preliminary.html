@@ -31,9 +31,45 @@
 
    <section id="importantdates">
       <h2>Preliminary Round</h2>
+
+
+      <h3>How to Participate</h3>
       <p>Firstly please sign up at the server linked from "Entry". After that please login and submit your program to the online game execution server linked from "Software".</p>
       <p>After submission, match-up games will be automatically performed.</p>
       <p>You can re-submit your program until the Preliminary round submission due specified at the "Schedule".</p>
+
+
+      <h3>Competetion Rules</h3>
+      <p>The preliminary round will be held on <a href='http://arena.ai-comp.net/' target='_blank'>the online execution server</a> after the submission deadline (2014/11/9 8:30 [JST]).
+      Only an "active" AI will be used for each team.
+      Each team has one active AI, which you can see at the bottom of the "Submit an AI" tab in the online execution server.</p>
+
+      <p>In the preliminary round, AI programs will be matched one another after reseting the rating.
+      Their ratings are calculated based on the result of the matches.
+      ***
+      The procedure is as follows:
+      <ol>
+        <li>If the number of AI programs is not a multiple of 4, fill it with dummy AI programs.
+        <li>Set the rating of all AI programs to 0.
+        <li>Group the AI programs four by four.
+        <li>Run a match for each group.
+        <li>Update the rating of each AI program.
+        <li>Repeat 3 to 5 for 50 times.
+      </ol>
+
+      <p>This game uses ELO rating. Note that the original ELO rating is for a 2-player game, so we use an extended version for this game.</p>
+      <ul>
+        <li>When a winner exists:
+          <ol>
+            <li>Let the winner A, and the losers B, C, and D.
+            <li>Update their ratings considering there has been "A vs B", "A vs C", and "A vs D", and A has won all of them. Also update their ratings considering there has been "B vs C", "B vs D", and "C vs D", and each match has ended in a draw. All updates to the ratings are done at the same time.
+          </ol>
+        <li>When the match ends in a draw
+          <ol>
+            <li>Let the players A, B, C, and D.
+            <li>Update their ratings considering there has been "A vs B", "A vs C", "A vs D", "B vs C", "B vs D", and "C vs D", and each match has ended in a draw. All updates to the ratings are done at the same time.
+          </ol>
+      </ul>
     </section>
 
 <footer>

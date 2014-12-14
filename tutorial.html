@@ -30,48 +30,74 @@
 </header>
 <hr/>
 
-   <section id="importantdates">
-      <h2>Preliminary Round</h2>
-      <p>The preliminary round will be held on the <a href='http://arena.ai-comp.net/' target='_blank'>online execution server</a> after the submission deadline.
-      Only an "active" AI will be used for each team.
-      Each team has one active AI, which you can see at the bottom of the "Submit an AI" tab in the online execution server.</p>
-      <p>Among teams which have made an <a href="http://goo.gl/forms/pUwQG78Xlq">entry</a>, 16 teams will advance to the final round.
-      10 teams with the highest ratings (described below) are chosen for the final round.
-      Also 6 teams with a good result are expected to be chosen in consideratin of region balance.</p>
-
-
-      <h3>How to Participate</h3>
-      <p>Firstly please make an <a href="http://goo.gl/forms/pUwQG78Xlq">entry</a>. After that please submit your program to the <a href='http://arena.ai-comp.net/' target='_blank'>online execution server</a>.</p>
-      <p>You can re-submit your program until the Preliminary round submission due specified at the <a href="schedule-jp.html">schedule</a>.</p>
-
-
-      <h3>Competetion Rules</h3>
-
-      <p>In the preliminary round, AI programs will be matched one another after reseting the rating.
-      Their ratings are calculated based on the result of each match, and finalists are chosen based on the ratings.
-      The procedure is as follows:
-      <ol>
-        <li>If the number of AI programs is not a multiple of 4, fill it with dummy AI programs.
-        <li>Set the rating of all AI programs to 0.
-        <li>Group the AI programs four by four.
-        <li>Run a match for each group.
-        <li>Update the rating of each AI program.
-        <li>Repeat 3 to 5 for 50 times.
-      </ol>
-
-      <p>This game uses ELO rating. Note that the original ELO rating is for a 2-player game, so we use an extended version for this game.</p>
-      <ul>
-        <li>When a winner exists:
-          <ol>
-            <li>Let the winner A, and the losers B, C, and D.
-            <li>Update their ratings considering there has been "A vs B", "A vs C", and "A vs D", and A has won all of them. Also update their ratings considering there has been "B vs C", "B vs D", and "C vs D", and each match has ended in a draw. All updates to the ratings are done at the same time.
-          </ol>
-        <li>When the match ends in a draw
-          <ol>
-            <li>Let the players A, B, C, and D.
-            <li>Update their ratings considering there has been "A vs B", "A vs C", "A vs D", "B vs C", "B vs D", and "C vs D", and each match has ended in a draw. All updates to the ratings are done at the same time.
-          </ol>
-      </ul>
+   <section id="main">
+      <h2>Tutorial</h2>
+      <p>
+        Here we show a tutorial for submitting your AI programs on <a href="http://arena.ai-comp.net/">the online execution server</a> step by step.
+      </p>
+      <hr>
+      <p>
+        <div>
+          First, open <a href="http://arena.ai-comp.net/">the online execution server</a> and sign up or log in.
+          <br /><br />
+        </div>
+        <div>
+          <img src="images/tutorial/top.png"/>
+        </div>
+      </p>
+      <hr>
+      <p>
+        <div>
+          Enter your e-mail and team name if you need to create an account.
+          <br /><br />
+        </div>
+        <div>
+          <img src="images/tutorial/signup.png"/>
+        </div>
+      </p>
+      <hr>
+      <p>
+        <div>
+          Open the contest list, find "SamurAI Coding 2014 Practice" and then click it.
+          <br /><br />
+        </div>
+        <div>
+          <img src="images/tutorial/contests.png"/>
+        </div>
+      </p>
+      <hr>
+      <p>
+        <div>
+          Submit your AI archive file (you can download sample AI files) via the form.
+          <br /><br />
+        </div>
+        <div>
+          <img src="images/tutorial/submission_form.png"/>
+        </div>
+      </p>
+      <hr>
+      <p>
+        <div>
+          After a while, you can see your submission status (sometimes you need to reload the page).
+          When your AI program is successfully compiled, click the "COMPILED" to show the detail.
+          <br /><br />
+        </div>
+        <div>
+          <img src="images/tutorial/submissions.png"/>
+        </div>
+      </p>
+      <hr>
+      <p>
+        <div>
+          Your AI program will be battled with others.
+          After that, you can see the replay where your AI joined.
+          Let's try it!
+          <br /><br />
+        </div>
+        <div>
+          <img src="images/tutorial/submission.png"/>
+        </div>
+      </p>
     </section>
 
 <footer>

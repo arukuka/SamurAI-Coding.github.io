@@ -108,13 +108,13 @@ body {
 }
 
 h1 {
-    font: normal bold 28px/50px Sans-serif;;
+    font: normal bold 28px/50px Georgia, serif;
     color: #f44;
     padding-top: 20px;
 }
 
 h2 {
-    font: normal bold 24px/40px Georgia, serif;
+    font: normal bold 24px/40px Sans-serif;
     line-height:34px;
     color: #f44;
     padding: 15px 0;

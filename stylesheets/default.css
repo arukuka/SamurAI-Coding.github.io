@@ -75,7 +75,7 @@ body {
     border: none;
     color: #333;
     margin: 0 auto;
-    font: normal 16px/24px Georgia, serif;
+    /* font: normal 16px/24px Georgia, serif; */
     width: 700px;
 }
 
@@ -108,13 +108,13 @@ body {
 }
 
 h1 {
-    font: italic bold 28px/50px Georgia, serif;
+    /* font: italic bold 28px/50px Georgia, serif; */
     color: #f44;
     padding-top: 20px;
 }
 
 h2 {
-    font: italic bold 24px/40px Georgia, serif;
+    /* font: italic bold 24px/40px Georgia, serif; */
     line-height:34px;
     color: #f44;
     padding: 15px 0;
@@ -134,16 +134,16 @@ p {
 
 p.institute {
     color: #fff;
-    font: normal 16px/24px Georgia;
+    /* font: normal 16px/24px Georgia; */
 }
 
 p.address {
-    font: normal 12px/16px Georgia;
+    /* font: normal 12px/16px Georgia; */
     padding-left: 10px;
 }
 
 p.smaller {
-    font: normal 12px/16px Georgia;
+    /* font: normal 12px/16px Georgia; */
 }
 
 blockquote {
@@ -199,7 +199,7 @@ a:focus {
 
 dt {
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 dd {
@@ -230,7 +230,7 @@ nav#global ul li {
 
 nav#global ul li a {
     color: #484;
-    font: normal bold 14px/44px Georgia, serif;
+    /* font: normal bold 14px/44px Georgia, serif; */
     padding: 5px;
     margin-right: 5px;
     text-align: center;

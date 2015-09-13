@@ -32,11 +32,13 @@
 </header>
 <hr/>
 
-   <section id="main">
-      <h2>ソフトウェア</h2>
-
-<p>(TBD)</p>
-
+   <section id="importantdates">
+      <h2>Important Dates</h2>
+      <ul>
+<li>Rule and platform announcement: Oct 2015</li>
+      	<li>Preliminary round: Nov 2015 - Feb 2016</li>
+        <li>World final round in Yokohama (collocated with 78th IPSJ National Convention at <a href="http://www.keio.ac.jp/en/maps/yagami.html">Keio University, Yagami Campus</a>): March 11, 2016</li>
+       </ul>
     </section>
 
 <footer>
@@ -69,9 +71,8 @@
       	  <section id="supporters">
       	    <h3>Supporters</h3>
             <p class="smaller">
-              Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
+              Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br>
               IEEE-Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
               (TBD)
              </p>
           </section>
@@ -80,6 +81,7 @@
     </table>
   </div>
 </footer>
+
 
   </body>
 </html>

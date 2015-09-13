@@ -32,12 +32,9 @@
 </header>
 <hr/>
 
-   <section id="main">
-      <h2>ソフトウェア</h2>
-
+   <section id="importantdates">
+      <h2>Preliminary Round</h2>
 <p>(TBD)</p>
-
-    </section>
 
 <footer>
   <div>
@@ -69,9 +66,8 @@
       	  <section id="supporters">
       	    <h3>Supporters</h3>
             <p class="smaller">
-              Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
+              Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br>
               IEEE-Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
               (TBD)
              </p>
           </section>
@@ -80,6 +76,7 @@
     </table>
   </div>
 </footer>
+
 
   </body>
 </html>

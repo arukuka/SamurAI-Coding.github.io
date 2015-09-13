@@ -64,22 +64,23 @@
         </td>
         <td width="300">
           <section id="sponsors">
-            <h3>イベントスポンサー</h3>
-            <h3>ゴールドスポンサー</h3>
+            <h3>イベントスポンサー</h3>(TBD)
+            <h3>ゴールドスポンサー</h3>(TBD)
           </section>
         </td>
         <td>
           <section id="supporters">
             <h3>協賛</h3>
             <p class="smaller">
-              慶應義塾大学 理工学部 情報工学科<br><br>
+              慶應義塾大学 理工学部 情報工学科<br>
               IEEE-Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
+              (TBD)
             </p>
           </section>
           <section id="backers">
             <h3>後援</h3>
             <p class="smaller">
+            	(TBD)
             </p>
           </section>
         </td>

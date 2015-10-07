@@ -17,7 +17,7 @@
       <ul>
         <li><a href="index-jp.html">ホーム</a></li>
         <li><a href="schedule-jp.html">日程</a></li>
-        <li><a href="aboutgame-jp">ルール</a></li>
+        <li><a href="aboutgame-jp.html">ルール</a></li>
         <li><a href="software-jp.html">ソフトウェア</a></li>
         <li><a href="tutorial-jp.html">チュートリアル</a></li>
         <li><a href=".">参加登録</a></li>
@@ -89,8 +89,15 @@
         </td>
         <td width="300">
           <section id="sponsors">
-            <h3>イベントスポンサー</h3>
             <h3>ゴールドスポンサー</h3>
+            <p>株式会社いい生活<br>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
+            <h3>サポーター＆メディアスポンサー</h3>
+<p>ヴォーカル・スクール ヴィーナス<br>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+</p>
+            <p>株式会社ジースタイラス<br>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
           </section>
         </td>
         <td>

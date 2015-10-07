@@ -53,22 +53,29 @@
         </td>
         <td width="300">
           <section id="sponsors">
-            <h3>イベントスポンサー</h3>(TBD)
-            <h3>ゴールドスポンサー</h3>(TBD)
+            <h3>ゴールドスポンサー</h3>
+            <p>株式会社いい生活<br>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
+            <h3>サポーター＆メディアスポンサー</h3>
+<p>ヴォーカル・スクール ヴィーナス<br>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+</p>
+            <p>株式会社ジースタイラス<br>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
           </section>
         </td>
         <td>
           <section id="supporters">
             <h3>協賛</h3>
             <p class="smaller">
+              慶應義塾大学 理工学部 情報工学科<br><br>
               IEEE-Computer Society<br>
-              (TBD)
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
             </p>
           </section>
           <section id="backers">
             <h3>後援</h3>
             <p class="smaller">
-            	(TBD)
             </p>
           </section>
         </td>

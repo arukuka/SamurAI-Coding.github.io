@@ -12,10 +12,11 @@
   <body>
     <!--#include virtual="header-jp.html" -->
 <header id="mast">
-  <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/>
-  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
-  <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>
-  <nav id="global">
+  <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
+  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>　　
+<a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>　
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>　
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a>　<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>  <nav id="global">
       <ul>
         <li><a href="index-jp.html">ホーム</a></li>
         <li><a href="schedule-jp.html">日程</a></li>
@@ -34,13 +35,14 @@
 <hr/>
 
     <section id="importantdates">
-      <h2>主要日程</h2>
+      <h2>主要日程（予定）</h2>
       <ul>
-       <li>ルール公開、応募受付開始：2015年10月</li>
-        <li>オンライン予選　：2015年11月-2016年2月</li>
-        <li>決勝（於 慶應義塾大学） 　　：2016年3月11日　
-        ※<a href="http://www.ipsj.or.jp/event/taikai/78">情報処理学会第78回全国大会併催</a></li>
-      </ul>
+        <li>ルール公開、応募受付開始：2015年10-11月</li>
+        <li>オンライン予選 1次募集締切：2016年1月8日</li>
+        <li>オンライン予選 1次募集結果発表：2016年1月18日頃、9チーム程度選抜（うち3チーム程度は地域バランス等考慮した特別選抜枠の予定）</li>
+        <li>オンライン予選 2次募集締切：2016年2月8日</li>
+        <li>オンライン予選 2次募集結果発表：2016年2月18日頃、9チーム程度選抜（うち3チーム程度は地域バランス等考慮した特別選抜枠の予定）</li>
+        <li>決勝（於 慶應義塾大学） 　　：2016年3月11日　※<a href="http://www.ipsj.or.jp/event/taikai/78">情報処理学会第78回全国大会併催</a></li>      </ul>
     </section>
 
 <footer>
@@ -58,23 +60,29 @@
         </td>
         <td width="300">
           <section id="sponsors">
-            <h3>イベントスポンサー</h3>(TBD)
-            <h3>ゴールドスポンサー</h3>(TBD)
+            <h3>ゴールドスポンサー</h3>
+            <p>株式会社いい生活<br>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
+            <h3>サポーター＆メディアスポンサー</h3>
+<p>ヴォーカル・スクール ヴィーナス<br>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+</p>
+            <p>株式会社ジースタイラス<br>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
           </section>
         </td>
         <td>
           <section id="supporters">
             <h3>協賛</h3>
             <p class="smaller">
-              慶應義塾大学 理工学部 情報工学科<br>
+              慶應義塾大学 理工学部 情報工学科<br><br>
               IEEE-Computer Society<br>
-              (TBD)
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
             </p>
           </section>
           <section id="backers">
             <h3>後援</h3>
             <p class="smaller">
-            	(TBD)
             </p>
           </section>
         </td>

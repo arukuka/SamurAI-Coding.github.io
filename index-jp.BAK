@@ -12,14 +12,16 @@
   <body>
     <!--#include virtual="header-jp.html" -->
 <header id="mast">
-  <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/>
-  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
-  <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>
+  <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
+  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>　　
+<a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>　
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>　
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a>　<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>
   <nav id="global">
       <ul>
         <li><a href="index-jp.html">ホーム</a></li>
         <li><a href="schedule-jp.html">日程</a></li>
-        <li><a href="aboutgame-jp">ルール</a></li>
+        <li><a href="aboutgame-jp.html">ルール</a></li>
         <li><a href="software-jp.html">ソフトウェア</a></li>
         <li><a href="tutorial-jp.html">チュートリアル</a></li>
         <li><a href=".">参加登録</a></li>
@@ -51,14 +53,31 @@
 </tr>
 </table>
     <section id="sponsors">
-    <h2>スポンサー</h2>
-    
+    <h2>スポンサー＆サポーター</h2>
+<p>
+<table cellpadding="10">
+<tr>
+<td>株式会社いい生活　</td>
+<td>ヴォーカル・スクール ヴィーナス　</td>
+<td>株式会社ジースタイラス</td>
+</tr>
+<tr>
+<td><center><a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></center></td>
+<td><center><a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a></center></td>
+<td><center><a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></center></td>
+</tr>
+</table>
+</p>
+
+<p>
     <a href="sponsor-jp.html">スポンサーを現在募集中です</a>。ぜひご検討ください。
+</p>
     
     </section>
     <section id="news">
       <h2>ニュース</h2>
       <ul>
+      	<li>10月7日: <a href="schedule-jp.html">日程</a>が決まりました。予選通過のチャンスは2回、1次募集の締切は2016年1月8日の予定です。
       	<li>9月8日: <a href="sponsor-jp.html">スポンサー募集</a>を開始しました。
       	<li>9月8日: <a href="aboutgame-jp.html">ゲームルール案</a>を公開しました。
         <li>9月8日: 本予告サイトを立ち上げました。
@@ -96,8 +115,11 @@
     <section id="importantdates">
       <h2>主要日程（予定）</h2>
       <ul>
-        <li>ルール公開、応募受付開始：2015年10月</li>
-        <li>オンライン予選　：2015年11月-2016年2月</li>
+        <li>ルール公開、応募受付開始：2015年10-11月</li>
+        <li>オンライン予選 1次募集締切：2016年1月8日</li>
+        <li>オンライン予選 1次募集結果発表：2016年1月18日頃、9チーム程度選抜（うち3チーム程度は多様性および地域バランス等を考慮した特別選抜枠の予定）</li>
+        <li>オンライン予選 2次募集締切：2016年2月8日</li>
+        <li>オンライン予選 2次募集結果発表：2016年2月18日頃、9チーム程度選抜（うち3チーム程度は地域バランス等考慮した特別選抜枠の予定）</li>
         <li>決勝（於 慶應義塾大学） 　　：2016年3月11日　※<a href="http://www.ipsj.or.jp/event/taikai/78">情報処理学会第78回全国大会併催</a></li>
       </ul>
     </section>
@@ -150,8 +172,15 @@
         </td>
         <td width="300">
           <section id="sponsors">
-            <h3>イベントスポンサー</h3>
             <h3>ゴールドスポンサー</h3>
+            <p>株式会社いい生活<br>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
+            <h3>サポーター＆メディアスポンサー</h3>
+<p>ヴォーカル・スクール ヴィーナス<br>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+</p>
+            <p>株式会社ジースタイラス<br>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
           </section>
         </td>
         <td>

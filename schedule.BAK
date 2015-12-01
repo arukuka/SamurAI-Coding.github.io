@@ -12,20 +12,29 @@
   <body>
   <!--#include virtual="header.html" -->
 <header id="mast">
+<center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.ccf.org.cn/"><img src="images/CCF.png" title="China Computer Federation" width="60"/></a>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="60"/></a>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="80"/></a>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="80"/></a>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="80"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="200"/></a>
+
+</center>
   <nav id="global">
       <ul>
         <li><a href=".">Home</a></li>
         <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="aboutgame-en.html">Rules</a></li>
+        <li><a href="rules.html">Rules</a></li>
         <li><a href="software.html">Software</a></li>
         <li><a href="tutorial.html">Tutorial</a></li>
-        <li><a href=".">Entry</a></li>
+        <li><a href="http://arena.ai-comp.net/">Entry</a></li>
         <li><a href="preliminary.html">Prelminary</a></li>
         <li><a href="final.html">Final</a></li>
         <li><a href="faq.html">FAQ</a></li>
@@ -38,8 +47,13 @@
    <section id="importantdates">
       <h2>Important Dates (TBD)</h2>
       <ul>
-
-
+      	<li>Rule and platform announcement: Oct-Nov 2015</li>
+        <li>Due of 1st call for challenge of online preliminary round: Jan 8, 2016</li>
+        <li>Result announcement of 1st call for challenge of online preliminary round: Jan 18, 2016. Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
+</li>
+        <li>Due of 2nd call for challenge of online preliminary round: Feb 8, 2016</li>
+        <li>Result announcement of 2nd call for challenge of online preliminary round: Feb 18, 2016. Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
+</li>
         <li>World final round in Yokohama (collocated with 78th IPSJ National Convention at <a href="http://www.keio.ac.jp/en/maps/yagami.html">Keio University, Yagami Campus</a>): March 11, 2016</li>
        </ul>
     </section>
@@ -66,23 +80,53 @@
       	  <section id="sponsors">
             <h3>Gold Sponsors</h3>
             <p>e-Seikatsu Co., Ltd.<br>
-            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="180"/></a></p>
             <h3>Supporters and Media Sponsors</h3>
 <p>Vocal School, Venus<br>
-<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="80"/></a>
 </p>
             <p>GSTYLUS<br>
-            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="80"/></a></p>
       	  </section>
       	</td>
       	<td>
       	  <section id="supporters">
       	    <h3>Supporters</h3>
             <p class="smaller">
-              Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
-              IEEE-Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
-              (TBD)
+China Computer Federation<br>
+<a href="http://www.ccf.org.cn/"><img src="images/CCF.png" title="China Computer Federation" width="80"/></a><br><br>
+
+Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
+
+IEEE Computer Society<br>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="100"/></a><br><br>
+
+IEEE Computer Society Japan Chapter<br><br>
+
+IEEE Japan Office<br>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="80"/></a><br><br>
+
+Information Technology Promotion Agency, Japan<br><br>
+
+International Information Science Foundation<br><br>
+
+Japan Electronics and Information Technology Industries Association<br>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="100"/></a><br><br>
+
+Japan Information Technology Services Industry Association<br>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="100"/></a><br><br>
+
+Japan Society for Software Science and Technology<br>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="100"/></a><br><br>
+
+Japan Users Association of Information Systems<br><br>
+
+The Institute of Electronics, Information and Communications Engineers<br><br>
+
+The Japanese Society for Artificial Intelligence<br><br>
+
+The Korean Institute of Information Scientists and Engineers<br>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
              </p>
           </section>
       	</td>

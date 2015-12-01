@@ -12,20 +12,29 @@
   <body>
   <!--#include virtual="header.html" -->
 <header id="mast">
+<center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.ccf.org.cn/"><img src="images/CCF.png" title="China Computer Federation" width="60"/></a>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="60"/></a>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="80"/></a>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="80"/></a>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="80"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="200"/></a>
+
+</center>
   <nav id="global">
       <ul>
         <li><a href=".">Home</a></li>
         <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="aboutgame-en.html">Rules</a></li>
+        <li><a href="rules.html">Rules</a></li>
         <li><a href="software.html">Software</a></li>
         <li><a href="tutorial.html">Tutorial</a></li>
-        <li><a href=".">Entry</a></li>
+        <li><a href="http://arena.ai-comp.net/">Entry</a></li>
         <li><a href="preliminary.html">Prelminary</a></li>
         <li><a href="final.html">Final</a></li>
         <li><a href="faq.html">FAQ</a></li>
@@ -53,8 +62,8 @@ aiming to cultivate the younger generation so they can become leading researcher
         <table border="0">
     	<tr><td><img src="banner.png" width=600 /><td>
     		<td>
-    <a class="twitter-timeline" href="https://twitter.com/hashtag/samuraicoding" data-widget-id="641194496789626880">#samuraicoding のツイート</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    
+ <a class="twitter-timeline" href="https://twitter.com/samuraicoding" data-widget-id="671727104392826881">@samuraicodingさんのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </td>
 </tr>
 </table>
@@ -83,6 +92,8 @@ aiming to cultivate the younger generation so they can become leading researcher
     <section id="news">
       <h2>News</h2>
       <ul>
+      	  <li>Nov 26: <a href="rules.html">Rules</a> and <a href="software.html">Software</a> pages have been updated.
+      	  <li>Nov 24: <a href="http://arena.ai-comp.net/">Contest server</a> is opened! Currently, you can only register.
       	  <li>Oct 7: <a href="schedule.html">Schedule</a> has been announced. There will be two chances to advance to the world final. Due date of 1st chance is Jan 8, 2016(TBD). 
       	  <li>Sep 8: <a href="aboutgame-en.html">Preliminary game rule</a> is out!
           <li>Sep 8: This preliminary website has been launched.
@@ -93,20 +104,44 @@ aiming to cultivate the younger generation so they can become leading researcher
       <h2>Registration and Submission</h2>
 
 <p>There is no age limit. Moreover contestants can participate in the contest as individual or team; there is no maximum number of team members.</p>
-<p>Further registration and submission procedures will be announced later. </p>
+<p>Please register your information on the <a href="http://arena.ai-comp.net/">contest server</a>. </p>
+<p>Further submission procedures will be announced later. </p>
 
    <section id="prize">
-      <h2>Prize</h2>
+<h2>Prize</h2>
 
-      <p>
-      <b>For Preliminary round contestants (including World Finalists): </b>
-      </p>
+<p>
+<b>For Preliminary round contestants (including World Finalists): </b>
+</p>
 
-<p>(TBD)</p>
+<p>
+Preliminary round contestants are invited to Banquet on the World final round date on a first-come, 
+first-served basis; the number of Banquet participants is limited.
+</p>
+
+<p>
+Students can freely attend sessions of the <a href="http://www.ipsj.or.jp/event/taikai/78/">78th IPSJ Annual Convention by register themselves at the Convention site</a>.
+</p>
 
 <p><b>For World Finalists: </b></p>
 
-<p>(TBD)</p>
+<p>
+Winners of World Final will receive prizes totaling 100,000JPY (TBD). Moreover there will be some Sponsor Awards and Gifts (TBD).
+</p>
+
+<p>
+World Final contestants who are not IPSJ members will receive one-year IPSJ membership without any entry fee and annual fee. (The entry fee is originally necessary for IPSJ regular members.)
+</p>
+
+<p>
+Travel expenses of World final contestants will be partially supported. 
+Last year World final contestants from out side of Japan received travel expenses up to 100,000JPY, 
+and contestants from a long distance within Japan received full travel expenses.
+</p>
+
+<p>
+All World Final contestants will be presented on the contest site.	
+</p>
 
     </section>
 
@@ -140,6 +175,9 @@ aiming to cultivate the younger generation so they can become leading researcher
  Ikuo Takeuchi, Shingo Takada, Matsuki Yoshino, Kazunori Sakamoto,
  Tetsuro Tanaka, Jun Nitta, Michiko Oba, Noriko Fukazawa
  </p>
+      <h2>Game Design Team</h2>
+      <p>Kazuma Hashimoto, Hirotaka Kameko, Yusei Kawakami, Yun-Ching Liu, Ryo Suzuki, Taisuke Yokoi
+</p>
     </section>
 
     <!--#include virtual="footer.html" -->
@@ -165,23 +203,53 @@ aiming to cultivate the younger generation so they can become leading researcher
       	  <section id="sponsors">
             <h3>Gold Sponsors</h3>
             <p>e-Seikatsu Co., Ltd.<br>
-            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="180"/></a></p>
             <h3>Supporters and Media Sponsors</h3>
 <p>Vocal School, Venus<br>
-<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="80"/></a>
 </p>
             <p>GSTYLUS<br>
-            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="80"/></a></p>
       	  </section>
       	</td>
       	<td>
       	  <section id="supporters">
       	    <h3>Supporters</h3>
             <p class="smaller">
-              Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
-              IEEE-Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a><br><br>
-              (TBD)
+China Computer Federation<br>
+<a href="http://www.ccf.org.cn/"><img src="images/CCF.png" title="China Computer Federation" width="80"/></a><br><br>
+
+Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
+
+IEEE Computer Society<br>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="100"/></a><br><br>
+
+IEEE Computer Society Japan Chapter<br><br>
+
+IEEE Japan Office<br>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="80"/></a><br><br>
+
+Information Technology Promotion Agency, Japan<br><br>
+
+International Information Science Foundation<br><br>
+
+Japan Electronics and Information Technology Industries Association<br>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="100"/></a><br><br>
+
+Japan Information Technology Services Industry Association<br>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="100"/></a><br><br>
+
+Japan Society for Software Science and Technology<br>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="100"/></a><br><br>
+
+Japan Users Association of Information Systems<br><br>
+
+The Institute of Electronics, Information and Communications Engineers<br><br>
+
+The Japanese Society for Artificial Intelligence<br><br>
+
+The Korean Institute of Information Scientists and Engineers<br>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
              </p>
           </section>
       	</td>

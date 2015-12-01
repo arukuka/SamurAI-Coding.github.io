@@ -10,17 +10,28 @@
   </head>
   
   <header id="mast">
-  <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/>
+<center>
+  <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
-  <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="120"/></a>
-  <nav id="global">
+<a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.ccf.org.cn/"><img src="images/CCF.png" title="China Computer Federation" width="60"/></a>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="60"/></a>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="80"/></a>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="80"/></a>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="80"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="200"/></a>
+
+</center>  <nav id="global">
       <ul>
         <li><a href="index-jp.html">ホーム</a></li>
         <li><a href="schedule-jp.html">日程</a></li>
-        <li><a href="aboutgame-jp.html">ルール</a></li>
+        <li><a href="rules-jp.html">ルール</a></li>
         <li><a href="software-jp.html">ソフトウェア</a></li>
         <li><a href="tutorial-jp.html">チュートリアル</a></li>
-        <li><a href=".">参加登録</a></li>
+        <li><a href="http://arena.ai-comp.net/">参加登録</a></li>
         <li><a href="preliminary-jp.html">予選</a></li>
         <li><a href="final-jp.html">決勝</a></li>
         <li><a href="faq-jp.html">FAQ</a></li>

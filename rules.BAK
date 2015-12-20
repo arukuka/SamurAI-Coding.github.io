@@ -89,13 +89,15 @@
       	  <section id="sponsors">
             <h3>Gold Sponsors</h3>
             <p>e-Seikatsu Co., Ltd.<br>
-            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="180"/></a></p>
+            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
+          <p>Hitachi, Ltd.<br>
+            <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="145"/></a></p>
             <h3>Supporters and Media Sponsors</h3>
 <p>Vocal School, Venus<br>
-<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="80"/></a>
+<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
             <p>GSTYLUS<br>
-            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="80"/></a></p>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
       	  </section>
       	</td>
       	<td>
@@ -105,7 +107,8 @@
 China Computer Federation<br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.png" title="China Computer Federation" width="80"/></a><br><br>
 
-Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br><br>
+Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br>
+<a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="60"/></a><br><br>
 
 IEEE Computer Society<br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="100"/></a><br><br>
@@ -120,19 +123,20 @@ Information Technology Promotion Agency, Japan<br><br>
 International Information Science Foundation<br><br>
 
 Japan Electronics and Information Technology Industries Association<br>
-<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="100"/></a><br><br>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="90"/></a><br><br>
 
 Japan Information Technology Services Industry Association<br>
-<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="100"/></a><br><br>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="90"/></a><br><br>
 
 Japan Society for Software Science and Technology<br>
-<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="100"/></a><br><br>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="90"/></a><br><br>
 
 Japan Users Association of Information Systems<br><br>
 
 The Institute of Electronics, Information and Communications Engineers<br><br>
 
-The Japanese Society for Artificial Intelligence<br><br>
+The Japanese Society for Artificial Intelligence<br>
+<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="70"/></a><br><br>
 
 The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
@@ -143,7 +147,6 @@ The Korean Institute of Information Scientists and Engineers<br>
     </table>
   </div>
 </footer>
-
 
   </body>
 </html>

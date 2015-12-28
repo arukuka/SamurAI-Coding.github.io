@@ -18,6 +18,7 @@
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
+<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="60"/></a>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="50"/></a>
@@ -92,6 +93,10 @@
     <section id="news">
       <h2>ニュース</h2>
       <ul>
+	<li>12月25日:
+	  <a href="preliminary-jp.html">
+	    予選のルールとハードウェア環境を掲載しました。
+	</a></li>
 	<li>12月20日: <a href="flyer1-150311.pdf">参加募集PDF</a> を掲載しました。</li>
 	<li>12月18日: Java で書いたサンプルプログラムを更新しました。</li>
 	<li>12月16日: Java と Python 2 で書いたサンプルプログラムが <a href="software.html">Software</a> のページにリリースされました。</li>
@@ -226,10 +231,16 @@
 <p>株式会社日立製作所<br>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a></p>
 
-            <h3>サポーター＆メディアスポンサー</h3>
+            <h3>サポーター</h3>
 <p>ヴォーカル・スクール ヴィーナス<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
+
+<p>Fujitsu Limited<br>
+<a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
+</p>
+
+<h3>メディアスポンサー</h3>
             <p>株式会社ジースタイラス<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
           </section>

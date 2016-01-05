@@ -50,8 +50,28 @@
 
    <section id="importantdates">
       <h2>FAQ</h2>
-      <p>Frequent Asked Questions and corresponding answers will be available here.</p>
+      <p>Frequent Asked Questions and corresponding answers are available here.</p>
       <p>If you have any question, please contact us at <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">samurai2015-contact@ipsj.or.jp</a></p>
+
+<ul>
+<li>Q1. Does the rule "The AIs have to respond within 5 seconds" in the 
+"Game Setting" section of the "SamurAI Coding 2015-16 Preliminary Round Rules" 
+include the compilation time?
+<br>
+A1. No.
+</li>
+<li>Q2. Can teams who fail to advance to the World final round at the 1st call for challenge of online preliminary round take part in the 2nd call for challenge of online preliminary round?
+<br>
+A2. Yes.
+
+</li>
+<li>Q3. Can teams change their programs for the World final round after getting through the online preliminary round?
+<br>
+A3. Yes. Due date of the submission for the World final will be set and announced.
+
+</li>
+</ul>
+
     </section>
 
 <footer>
@@ -79,10 +99,16 @@
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
           <p>Hitachi, Ltd.<br>
             <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="145"/></a></p>
-            <h3>Supporters and Media Sponsors</h3>
+            <h3>Supporters</h3>
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
+
+<p>Fujitsu Limited<br>
+<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
+</p>
+
+<h3>Media Sponsors</h3>
             <p>GSTYLUS<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
       	  </section>
@@ -134,7 +160,6 @@ The Korean Institute of Information Scientists and Engineers<br>
     </table>
   </div>
 </footer>
-
 
   </body>
 </html>

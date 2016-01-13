@@ -100,7 +100,12 @@ aiming to cultivate the younger generation so they can become leading researcher
     <section id="news">
       <h2>News</h2>
       <ul>
-<li>Jan 5: Frequent Asked Questions and corresponding answers are now available on the <a href="faq.html">FAQ page</a>. Please look at it.
+<li>Jan 12 AoE: <font color="red"><b>
+Due to frequent problems with the contest server, some of possible participants find difficulties in their development of AI players. In consideration of this state, we will extend the deadline of submission for the first preliminary round for at least three weeks.  Exact dates, including the schedule of the second preliminary round, are to be announced soon. </b></font>
+	<li>Jan 6: <a href="software.html">Game manager software</a>
+	  revised.</li>
+	<li>Jan 6: Python sample player updated.</li>
+	<li>Jan 5: Frequent Asked Questions and corresponding answers are now available on the <a href="faq.html">FAQ page</a>. Please look at it.
 	<li>Jan 3: <font color="red"><b>Due of 1st call for challenge of online preliminary round has been extended to Jan 12, 2016 AoE!</b></font></li>
 	<li>Dec 25:
 	  <a href="preliminary.html">
@@ -164,11 +169,12 @@ All World Final contestants will be presented on the contest site.
       <h2>Important Dates</h2>
       <ul>
       	<li>Rule and platform announcement: Oct-Nov 2015</li>
-        <li><font color="red"><b>Due of 1st call for challenge of online preliminary round: Jan 12, 2016 AoE (extended)</b></font></li>
-        <li>Result announcement of 1st call for challenge of online preliminary round: Jan 18, 2016. Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
+        <li>Due of 1st call for challenge of online preliminary round: 
+Due to frequent problems with the contest server, we will extend the deadline of submission for the first preliminary round for at least three weeks.  Exact dates, including the schedule of the second preliminary round, are to be announced soon. </li>
+        <li>Result announcement of 1st call for challenge of online preliminary round: (TBD) Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
 </li>
-        <li>Due of 2nd call for challenge of online preliminary round: Feb 8, 2016</li>
-        <li>Result announcement of 2nd call for challenge of online preliminary round: Feb 18, 2016. Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
+        <li>Due of 2nd call for challenge of online preliminary round: (TBD)</li>
+        <li>Result announcement of 2nd call for challenge of online preliminary round: (TBD) Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
 </li>
         <li>World final round in Yokohama (collocated with 78th IPSJ National Convention at <a href="http://www.keio.ac.jp/en/maps/yagami.html">Keio University, Yagami Campus</a>): March 11, 2016</li>
       </ul>

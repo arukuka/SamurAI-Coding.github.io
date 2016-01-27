@@ -100,6 +100,7 @@ aiming to cultivate the younger generation so they can become leading researcher
     <section id="news">
       <h2>News</h2>
       <ul>
+<li>Jan 26 AoE: The contest system is now accepting your AI program submissions! If you have any further problem, let us know it at samurai2015-contact@ipsj.or.jp
 <li>Jan 14 AoE: <font color="red"><b>Due to the necessity of the system maintenance, due of 1st call for challenge of online preliminary round has been extended to Feb 8, 2016 AoE! As of Jan 14 AoE, the system is still under maintenance. </b></font></li>
 <li>Jan 12 AoE: 
 Due to frequent problems with the contest server, some of possible participants find difficulties in their development of AI players. In consideration of this state, we will extend the deadline of submission for the first preliminary round for at least three weeks.  Exact dates, including the schedule of the second preliminary round, are to be announced soon. 
@@ -107,7 +108,7 @@ Due to frequent problems with the contest server, some of possible participants 
 	  revised.</li>
 	<li>Jan 6: Python sample player updated.</li>
 	<li>Jan 5: Frequent Asked Questions and corresponding answers are now available on the <a href="faq.html">FAQ page</a>. Please look at it.
-	<li>Jan 3: <font color="red"><b>Due of 1st call for challenge of online preliminary round has been extended to Jan 12, 2016 AoE!</b></font></li>
+	<li>Jan 3: Due of 1st call for challenge of online preliminary round has been extended to Jan 12, 2016 AoE!</li>
 	<li>Dec 25:
 	  <a href="preliminary.html">
 	    Preliminary round rules and HW environments announced.

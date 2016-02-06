@@ -61,6 +61,8 @@
 	<li>スコアリング、軍団の組合せ、対戦の組合せなどについては、今後発表する予定です。</li>
       </ul>
     </section>
+
+<hr/>
     <!--#include virtual="footer-jp.html" -->
 <footer>
   <div>
@@ -83,10 +85,19 @@
 <p>株式会社日立製作所<br>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a></p>
 
-            <h3>サポーター＆メディアスポンサー</h3>
+<p>株式会社レコチョク<br>
+<a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></p>
+
+            <h3>サポーター</h3>
 <p>ヴォーカル・スクール ヴィーナス<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
+
+<p>富士通株式会社<br>
+<a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
+</p>
+
+<h3>メディアスポンサー</h3>
             <p>株式会社ジースタイラス<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
           </section>

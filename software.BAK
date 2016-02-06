@@ -13,9 +13,10 @@
 <header id="mast">
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
-  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
+  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a>
+<a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
@@ -52,16 +53,20 @@
       <p>The following software systems are currently available for
 	the SamurAI 3x3 game.</p>
       <ul>
-	<li><a href="software/SamurAImanager-1124.tgz">
+	<li><a href="software/SamurAImanager-0106.tgz">
 	    SamurAI 3x3 Game Management System</a>:
 	  Manages a SamurAI 3x3 game according to its rules, invoking
 	  AI programs to control samurai.
 	  Several sample AI programs are also included.
-	  The system and sample programs are written in C++11.
+	  The system and sample programs are written in C++11.<br>
+	  Note: The program interface revised on the release of Jan. 6th.
+	  See the README file for details.
+	  Specify the option -t to obtain the same output format
+	  as the former version.
 	</li>
 	<li>Sample AI programs in languages other than C++.
 	  <ul>
-	    <li><a href="software/python2-player-1215.tgz">Python 2</a></li>
+	    <li><a href="software/python2-player-0106.tgz">Python 2 (updated on Jan. 6)</a></li>
 	    <li><a href="software/java-player-1218.tgz">Java (updated on Dec. 18)</a></li>
 	  </ul>
 	</li>
@@ -73,6 +78,8 @@
 	</li>
       </ul>
     </section>
+
+<hr>
     <!--#include virtual="footer.html" -->
 <footer>
   <div>
@@ -99,10 +106,16 @@
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
           <p>Hitachi, Ltd.<br>
             <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="145"/></a></p>
-            <h3>Supporters and Media Sponsors</h3>
+            <h3>Supporters</h3>
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
+
+<p>Fujitsu Limited<br>
+<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
+</p>
+
+<h3>Media Sponsors</h3>
             <p>GSTYLUS<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
       	  </section>
@@ -154,7 +167,6 @@ The Korean Institute of Information Scientists and Engineers<br>
     </table>
   </div>
 </footer>
-
 
   </body>
 </html>

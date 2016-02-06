@@ -123,7 +123,8 @@ h2 {
 h3 {
     font-size: 18px;
     line-height: 22px;
-    color: #f44;
+    color: #000000;
+    /* color: #f44; */
     padding: 11px 0;
 }
 
@@ -131,16 +132,19 @@ p {
     font-family: sans-serif
     font-weight: normal;
     padding-bottom: 18px;
+    color: #000000;
 }
 
 p.institute {
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
     font: normal 16px/24px Sans-serif;
 }
 
 p.address {
     font: normal 12px/16px Sans-serif;
     padding-left: 10px;
+    color: #000000;
 }
 
 p.smaller {
@@ -274,7 +278,8 @@ footer {
     position: absolute;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #FFFFFF;
+    /* background-color: #333; */
 }
 
 footer div {
@@ -293,7 +298,8 @@ footer div section {
 }
 
 footer div section h3 {
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
 }
 
 nav#blogRoll ul li, nav#siteMap ul li {

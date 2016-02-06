@@ -14,9 +14,10 @@
 <header id="mast">
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
-  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
+  <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a>
+<a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
@@ -69,16 +70,18 @@
     <h2>スポンサー＆サポーター</h2>
 <p>
 <table cellpadding="10">
-<tr>
-<td>株式会社いい生活　</td>
-<td>株式会社日立製作所　</td>
-<td>ヴォーカル・スクール　<br> ヴィーナス　</td>
-<td>富士通株式会社　</td>
-<td>株式会社ジースタイラス</td>
+<tr align="center">
+<td>株式会社<br>いい生活</td>
+<td>株式会社<br>日立製作所</td>
+<td>株式会社<br>レコチョク</td>
+<td>ヴォーカル・スクール<br> ヴィーナス　</td>
+<td>富士通<br>株式会社</td>
+<td>株式会社<br>ジースタイラス</td>
 </tr>
 <tr>
 <td><center><a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></center></td>
 <td><center><a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a></center></td>
+<td><center><a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></center></td>
 <td><center><a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a></center></td>
 <td><center><a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="80"/></a></center></td>
 <td><center><a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></center></td>
@@ -94,7 +97,7 @@
     <section id="news">
       <h2>ニュース</h2>
       <ul>
-<li>1月27日: コンテストシステムへのAI投稿の受付を再開しました！何か問題にお気づきの方がいらっしゃいましたら、ご連絡ください。</li>
+<li>1月27日: コンテストシステムへのAI投稿の受付を再開しました！何か問題にお気づきの方がいらっしゃいましたら、samurai2015-contact@ipsj.or.jp までご連絡ください。</li>
 <li>1月15日: <font color="red"><b>システムのメンテナスの実施に伴い、オンライン予選 1次募集締切を 2016年2月8日 AoE（日本時間 2月9日 20:59）に延長しました。なお、日本時間 1月15日現在ではシステムのメンテナンスを実施途中です。</b></font></li>
 <li>1月13日: コンテストサーバの不具合の報告を数多くいただいております．参加者が正常に開発が行えない状況が続いていることを鑑み、システムのメンテナスの実施等のため、一次募集の締切を少なくとも3週間以上延長する予定です．二次募集を含む詳細な日程は決定次第お知らせします．</li>
 	<li>1月6日: <a href="software-jp.html">ゲーム実行管理システム</a>
@@ -219,6 +222,7 @@
 </p>
     </section>
 
+<hr/>
     <!--#include virtual="footer-jp.html" -->
 <footer>
   <div>
@@ -240,6 +244,9 @@
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></p>
 <p>株式会社日立製作所<br>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a></p>
+
+<p>株式会社レコチョク<br>
+<a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></p>
 
             <h3>サポーター</h3>
 <p>ヴォーカル・スクール ヴィーナス<br>

@@ -18,8 +18,11 @@
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a>
+<a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a><br>
+<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
+<a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="60"/></a>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="50"/></a>
@@ -77,20 +80,27 @@ aiming to cultivate the younger generation so they can become leading researcher
     <h2>Sponsors and Supporters</h2>
 <p>
 <table cellpadding="10">
-<tr>
+<tr align="center">
 <td>e-Seikatsu Co., Ltd.　</td>
 <td>Hitachi, Ltd.　</td>
 <td>RecoChoku Co.,Ltd.　</td>
-<td>Vocal School, Venus　</td>
-<td>Fujitsu Limited　</td>
-<td>GSTYLUS　</td>
+<td>TIS Inc.</td>
 </tr>
 <tr>
 <td><center><a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></center></td>
 <td><center><a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a></center></td>
 <td><center><a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></center></td>
+<td><center><a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a></center></td>
+</tr>
+<tr align="center">
+<td>Vocal School, Venus　</td>
+<td>Fujitsu Limited　</td>
+<td>Cray Japan Inc.　</td>
+<td>GSTYLUS　</td>
+</tr>
 <td><center><a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a></center></td>
 <td><center><a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a></center></td>
+<td><center><a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a></center></td>
 <td><center><a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></center></td>
 </tr>
 </table>
@@ -103,7 +113,7 @@ aiming to cultivate the younger generation so they can become leading researcher
     <section id="news">
       <h2>News</h2>
       <ul>
-<li>Feb 9: 1st call for challenge of online preliminary round has been over. The result will be announced on Feb 12, 2016 (TBD)</li>
+<li>Feb 9: 1st call for challenge of online preliminary round has been over. The result will be announced on Feb 12. (TBD)</li>
 <li>Feb 8 AoE: <a href="faq.html">FAQ page</a> has been updated about "timeout" issue. 
 <li>Jan 26 AoE: The contest system is now accepting your AI program submissions! If you have any further problem, let us know it at samurai2015-contact@ipsj.or.jp
 <li>Jan 14 AoE: Due to the necessity of the system maintenance, due of 1st call for challenge of online preliminary round has been extended to Feb 8, 2016 AoE! As of Jan 14 AoE, the system is still under maintenance.</li>
@@ -237,6 +247,9 @@ All World Final contestants will be presented on the contest site.
             <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="145"/></a></p>
 <p>RecoChoku Co.,Ltd.<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></p>
+<p>TIS Inc.<br>
+<a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
+</p>
             <h3>Supporters</h3>
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
@@ -244,6 +257,9 @@ All World Final contestants will be presented on the contest site.
 
 <p>Fujitsu Limited<br>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
+</p>
+<p>Cray Japan Inc.<br>
+<a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 </p>
 
 <h3>Media Sponsors</h3>
@@ -290,7 +306,12 @@ The Japanese Society for Artificial Intelligence<br>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="70"/></a><br><br>
 
 The Korean Institute of Information Scientists and Engineers<br>
-<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a><br><br>
+
+The Ministry of Economy, Trade and Industry
+The Ministry of Foreign Affairs of Japan
+The Ministry of Education, Culture, Sports, Science and Technology
+
              </p>
           </section>
       	</td>

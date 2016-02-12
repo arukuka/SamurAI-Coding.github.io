@@ -113,6 +113,9 @@ aiming to cultivate the younger generation so they can become leading researcher
     <section id="news">
       <h2>News</h2>
       <ul>
+<li>Feb 12: <a href="preliminary.html">The result of 1st call for challenge of online preliminary round</a> is out! Congratulations to all winners! For other teams that lost the 1st online preliminary round, 
+this year there will be another chance to advance to the World Final so that 
+consider to submit your AI program to 2nd online preliminary round!
 <li>Feb 9: 1st call for challenge of online preliminary round has been over. The result will be announced on Feb 12. (TBD)</li>
 <li>Feb 8 AoE: <a href="faq.html">FAQ page</a> has been updated about "timeout" issue. 
 <li>Jan 26 AoE: The contest system is now accepting your AI program submissions! If you have any further problem, let us know it at samurai2015-contact@ipsj.or.jp
@@ -186,9 +189,8 @@ All World Final contestants will be presented on the contest site.
       <h2>Important Dates</h2>
       <ul>
       	<li>Rule and platform announcement: Oct-Nov 2015</li>
-<font color="red"><b>
         <li>Due of 1st call for challenge of online preliminary round: Feb 8, 2016 AoE</li>
-        <li>Result announcement of 1st call for challenge of online preliminary round: Feb 12, 2016 (TBD). Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
+        <li>Result announcement of 1st call for challenge of online preliminary round: Feb 12, 2016. Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution. 
 </li>
         <li>Due of 2nd call for challenge of online preliminary round: Feb 22, 2016 AoE</li>
         <li>Result announcement of 2nd call for challenge of online preliminary round: Feb 26, 2016 AoE (TBD). Nine teams will be selected for the world final. Among them, up to three teams will be selected in consideration of diversity and geographical distribution (TBD). 
@@ -308,8 +310,8 @@ The Japanese Society for Artificial Intelligence<br>
 The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a><br><br>
 
-The Ministry of Economy, Trade and Industry
-The Ministry of Foreign Affairs of Japan
+The Ministry of Economy, Trade and Industry<br><br>
+
 The Ministry of Education, Culture, Sports, Science and Technology
 
              </p>

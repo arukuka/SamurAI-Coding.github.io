@@ -22,7 +22,7 @@
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a> <a href="https://moneyforward.com/">マネーフォワード</a><br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="60"/></a>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="50"/></a>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
@@ -61,7 +61,9 @@
 	    SamurAI 3x3 ゲームの概要</a></li>
 	<li><a href="ruledetails-1116-jp.pdf">
 	    ルールの詳細とプログラミングインタフェース</a></li>
-	<li>スコアリング、軍団の組合せ、対戦の組合せなどについては、今後発表する予定です。</li>
+	<li>予選と決勝のトーナメントルールについては、それぞれ
+	  <a href="preliminary-jp.html">予選のページ</a>および
+	  <a href="final-jp.html">決勝のページ</a>をご覧ください。</li>
       </ul>
     </section>
 
@@ -74,7 +76,7 @@
         <td width="250">
           <section id="contact">
             <h3>情報処理学会</h3>
-            <p class=address>〒101-0062 東京都千代田区駿河台1-5 化学会館 ４階</p>
+            <p class=address>〒101-0062 東京都千代田区駿河台1-5 化学会館 4階</p>
             <p>email: <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">
           samurai2015-contact@ipsj.or.jp</a></p>
           <a href="http://www.ipsj.or.jp/"><img src="images/IPSJ_logoB_M.gif" width="200"/></a>
@@ -91,6 +93,11 @@
 <p>株式会社レコチョク<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></p>
 
+<p>TIS株式会社<br>
+<a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
+</p>
+
+
             <h3>サポーター</h3>
 <p>ヴォーカル・スクール ヴィーナス<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
@@ -100,9 +107,15 @@
 <a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 </p>
 
+<p>クレイ・ジャパン・インク<br>
+<a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
+</p>
+
 <h3>メディアスポンサー</h3>
             <p>株式会社ジースタイラス<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
+
+<p>株式会社マネーフォワード</p>
           </section>
         </td>
         <td>
@@ -151,8 +164,8 @@ The Korean Institute of Information Scientists and Engineers<br>
             <h3>後援</h3>
             <p class="smaller">
 独立行政法人情報処理推進機構<br><br>
-
-
+経済産業省<br><br>
+文部科学省
             </p>
           </section>
         </td>

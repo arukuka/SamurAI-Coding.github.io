@@ -23,7 +23,9 @@
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a> 
+<a href="https://moneyforward.com/">Money Forward</a>
+<br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="60"/></a>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="50"/></a>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
@@ -85,6 +87,7 @@ aiming to cultivate the younger generation so they can become leading researcher
 <td>Hitachi, Ltd.　</td>
 <td>RecoChoku Co.,Ltd.　</td>
 <td>TIS Inc.</td>
+<td> </td>
 </tr>
 <tr>
 <td><center><a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></center></td>
@@ -97,6 +100,7 @@ aiming to cultivate the younger generation so they can become leading researcher
 <td>Fujitsu Limited　</td>
 <td>Cray Japan Inc.　</td>
 <td>GSTYLUS　</td>
+<td><a href="https://moneyforward.com/">Money Forward, Inc.</a>　</td>
 </tr>
 <td><center><a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a></center></td>
 <td><center><a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a></center></td>
@@ -105,10 +109,6 @@ aiming to cultivate the younger generation so they can become leading researcher
 </tr>
 </table>
 </p>
-<p>
-    If you are interested in sponsoring SamurAI Coding 2015-16, please contact us at <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">samurai2015-contact@ipsj.or.jp</a>. There are several types of Sponsorship Opportunities: Shogun, Platinum, Gold, Supporter, Prize, and Media. <a href="http://samuraicoding.info/sponsor-jp.html">Call for Sponsors in Japanese</a> is also available. 
-</p>
-
     </section>
     <section id="news">
       <h2>News</h2>
@@ -271,6 +271,7 @@ All World Final contestants will be presented on the contest site.
 <h3>Media Sponsors</h3>
             <p>GSTYLUS<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
+<p><a href="https://moneyforward.com/">Money Forward, Inc.</a></p>
       	  </section>
       	</td>
       	<td>

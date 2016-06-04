@@ -23,7 +23,8 @@
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a> 
+<a href="https://moneyforward.com/">Money Forward</a><br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="60"/></a>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="50"/></a>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
@@ -60,7 +61,7 @@
   <li><a href="FinalRoundRule-en.pdf">Final Round Rules</a></li>
 </ul>
 
-<h3>Results</h3>
+<h3>Results and Submitted Program</h3>
 
 <p>
 Thanks to many contestants, sponsors, supporters and staffs, 
@@ -72,6 +73,10 @@ And finally the winner was team piyo!
 And the following teams received prizes. 
 Congratulations! Moreover we had a great networking at the banquet! 
 Thank you again, and, see you next time!
+</p>
+
+<p>
+AI programs of the finalists have been published on the result table.
 </p>
 
 <ul>
@@ -91,12 +96,12 @@ Tuure 10,000JPY, kwrig 5,000JPY, arukuka & mztmr_nggts 5,000JPY, siman 5,000JPY
 	</tr>
 	<tr align="center">
 		<td>1</td>
-		<td>piyo</td>
+		<td><a href="programs/2015-16-Team piyo.zip">piyo</a></td>
 		<td>25394</td>
 	</tr>
 	<tr align="center">
 		<td>2</td>
-		<td>sinryakudegeso</td>
+		<td><a href="programs/2015-16-sinryakudegeso.zip">sinryakudegeso</a></td>
 		<td>24861</td>
 	</tr>
 	<tr align="center">
@@ -106,17 +111,17 @@ Tuure 10,000JPY, kwrig 5,000JPY, arukuka & mztmr_nggts 5,000JPY, siman 5,000JPY
 	</tr>
 	<tr align="center">
 		<td>4</td>
-		<td>kwrig</td>
+		<td><a href="programs/2015-16-kwrig.zip">kwrig</a></td>
 		<td>20609</td>
 	</tr>
 	<tr align="center">
 		<td>5</td>
-		<td>arukuka & mztmr_nggts</td>
+		<td><a href="programs/2015-16-arukuka & mztmr_nggts.zip">arukuka & mztmr_nggts</a></td>
 		<td>19563</td>
 	</tr>
 	<tr align="center">
 		<td>6</td>
-		<td>siman</td>
+		<td><a href="programs/2015-16-siman.zip">siman</a></td>
 		<td>18749</td>
 	</tr>
 </table>

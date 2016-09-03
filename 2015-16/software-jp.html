@@ -51,22 +51,36 @@
 </header>
 <hr/>
 
-    <section id="importantdates">
-      <h2>主要日程</h2>
+    <section id="main">
+	  <h2>ソフトウェア</h2>
+      <p>SamurAI 3x3 ゲーム関連のソフトウェアとして、以下のものが公開されています。
       <ul>
-        <li>ルール公開、応募受付開始：2015年10-11月</li>
-<font color="red"><b>
-        <li>オンライン予選 1次募集締切：2016年2月8日 AoE（日本時間 2月9日 20:59）システムのメンテナンスの実施に伴い延長しました</li>
-        <li>オンライン予選 1次募集結果発表：2016年2月12日（予定）9チーム程度選抜（うち3チーム程度は多様性および地域バランス等を考慮した特別選抜枠の予定）</li>
-        <li>オンライン予選 2次募集締切：2016年2月22日 AoE（日本時間 2月23日 20:59）システムのメンテナスの実施に伴い延長しました
-</li>
-        <li>オンライン予選 2次募集結果発表：2016年2月26日（予定）9チーム程度選抜（うち3チーム程度は多様性および地域バランス等を考慮した特別選抜枠の予定）</li>
-</b></font>
-        <li>決勝（於 慶應義塾大学） 　　：2016年3月11日　※<a href="http://www.ipsj.or.jp/event/taikai/78">情報処理学会第78回全国大会併催</a></li>
+	<li><a href="software/SamurAImanager-0106.tgz">
+	    SamurAI 3x3 ゲームの実行管理システム</a>:
+	  サムライを制御する AI プログラムを呼び出して、ルールにのっとってゲームの進行を管理します。
+	  いくつかの AI プログラムのサンプルも含まれています。
+	  システムやサンプル AI プログラムは C++11 で記述してあります。<br>
+	  1月6日の更新で AI の指定のしかたなどのインタフェースが変更されました。
+	  詳しくは README.jp を見てください。
+	  従来の版と同じ出力形式のためには -t オプションを指定してください。
+	</li>
+	<li>
+	  C++ 以外の言語で記述したサンプル AI プログラム。
+	  <ul>
+	    <li><a href="software/python2-player-0106.tgz">Python 2 (1月6日更新)</a></li>
+	    <li><a href="software/java-player-1218.tgz">Java (12月18日更新)</a></li>
+	  </ul>
+	</li>
+	<li><a href="software/SamurAI_Visualizer.jar">
+	    ゲームログの可視化ツール</a>:
+	  実行管理システムが出力するゲームログをグラフィカルに可視化するプログラムです。
+	  このツールは Java で記述してあります。
+	</li>
       </ul>
     </section>
 
 <hr/>
+    <!--#include virtual="footer-jp.html" -->
 <footer>
   <div>
     <table class="multicolumn">
@@ -113,7 +127,7 @@
             <p>株式会社ジースタイラス<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
 
-<p>株式会社マネーフォワード</p>
+<p><a href="https://moneyforward.com/">株式会社マネーフォワード</a></p>
           </section>
         </td>
         <td>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="Description" content="SamurAI Coding 2015-16">
   <meta name="author" content="Hironori Washizaki">
-  <title>SamurAI Coding 2015-16</title>
+  <title>SamurAI Coding 2016-17</title>
   <link rel="stylesheet" href="stylesheets/default.css">
 </head>
 
@@ -14,6 +14,7 @@
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
+<!--
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a>
@@ -22,7 +23,8 @@
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a><br>
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a> 
+<a href="https://moneyforward.com/">Money Forward</a><br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="60"/></a>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="50"/></a>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE CS" width="100"/></a>
@@ -32,19 +34,19 @@
 <a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="70"/></a>
 <img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="60"/></a>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
-
+-->
 </center>
   <nav id="global">
       <ul>
         <li><a href=".">Home</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
+        <li>Schedule</li>
         <li><a href="rules.html">Rules</a></li>
-        <li><a href="software.html">Software</a></li>
-        <li><a href="tutorial.html">Tutorial</a></li>
-        <li><a href="http://arena.ai-comp.net/">Entry</a></li>
-        <li><a href="preliminary.html">Preliminary</a></li>
-        <li><a href="final.html">Final</a></li>
-        <li><a href="faq.html">FAQ</a></li>
+        <li>Software</li>
+        <li>Tutorial</li>
+        <li>Entry</li>
+        <li>Preliminary</li>
+        <li>Final</li>
+        <li>FAQ</li>
         <li><a href="index-jp.html">Japanese</a></li>
       </ul>
   </nav>
@@ -52,23 +54,21 @@
 <hr/>
     <section id="main">
 	  <h2>SamurAI Coding Rules</h2>
-      <p>SamurAI Coding is a programming contest in which programmers
-	compete for their superiority in AI programming skills.  In
-	the contest, the game named <em>SamurAI 3x3</em> (samurai
-	three on three) is played by two armies of three samurai each,
-	and each of participating AI programs controls one of the
-	samurai in each game.  Many games with different army
-	composition are played in a contest and the winner will be the
-	program controlling the samurai with the highest total
-	score.</p>
+      <p>SamurAI 3x3 (Samurai three on three) is a game played by two armies each consisting of
+three samurai with different weapons, competing for wider territory. Contestants build an
+AI program that decides the actions of the samurai that plays the games. </p>
       <ul>
+<!--
 	<li><a href="aboutgame-en.html">
 	    Outline of the Samurai 3x3 Game</a></li>
-	<li><a href="ruledetails-1116-en.pdf">
+-->
+	<li><a href="rules-en.pdf">
 	    Rule Details and Programming Interface</a></li>
+<!--
 	<li>Tournament rules are described
 	  in <a href="preliminary.html">the preliminary round page</a>
 	  and <a href="final.html">the final round page</a>.</li>
+-->
       </ul>
     </section>
     <!--#include virtual="footer.html" -->
@@ -84,9 +84,9 @@
       	    <p class=address>Kagaku-kaikan (Chemistry Hall) 4F<br>
       	      1-5 Kanda-Surugadai, Chiyoda-ku,
       	      Tokyo 101-0062 JAPAN<br>
-      	    email: <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">
+      	    email: <a class="contactadddr" href="mailto:samurai-contact@ipsj.or.jp">
 
-      		  samurai2015-contact@ipsj.or.jp</a><br>
+      		  samurai-contact@ipsj.or.jp</a><br>
             web: <a href="http://www.ipsj.or.jp">http://www.ipsj.or.jp</a>
             </p>
             <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
@@ -95,6 +95,7 @@
       	<td width="300">
       	  <section id="sponsors">
             <h3>Gold Sponsors</h3>
+<!--
             <p>e-Seikatsu Co., Ltd.<br>
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
           <p>Hitachi, Ltd.<br>
@@ -104,7 +105,9 @@
 <p>TIS Inc.<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
 </p>
+-->
             <h3>Supporters</h3>
+<!--
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
@@ -115,16 +118,20 @@
 <p>Cray Japan Inc.<br>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 </p>
+-->
 
 <h3>Media Sponsors</h3>
+<!--
             <p>GSTYLUS<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
 <p><a href="https://moneyforward.com/">Money Forward, Inc.</a></p>
       	  </section>
+-->
       	</td>
       	<td>
       	  <section id="supporters">
       	    <h3>Supporters</h3>
+<!--
             <p class="smaller">
 China Computer Federation<br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="80"/></a><br><br>
@@ -166,7 +173,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 The Ministry of Economy, Trade and Industry<br><br>
 
 The Ministry of Education, Culture, Sports, Science and Technology
-
+-->
              </p>
           </section>
       	</td>

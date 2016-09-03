@@ -1,20 +1,18 @@
+<!DOCTYPE html>
 <html>
-  <!--#include virtual="commonhead.html" -->
-<head>
-  <meta charset="utf-8">
-  <meta name="Description" content="SamurAI Coding 2016-17">
-  <meta name="author" content="Hironori Washizaki">
-  <title>SamurAI Coding 2016-17</title>
-  <link rel="stylesheet" href="stylesheets/default.css">
-</head>
-
-  <body>
-  <!--#include virtual="header.html" -->
-<header id="mast">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="description" content="SamurAI Coding 2015-16">
+    <meta name="author" content="Takashi Chikayama">
+    <title>SamurAI 3x3: Game Outline</title>
+    <link rel="stylesheet" href="http://samuraicoding.info/stylesheets/default.css">
+  </head>
+  
+  <header id="mast">
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
-<!--
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a>
@@ -34,44 +32,73 @@
 <a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="70"/></a>
 <img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="60"/></a>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
--->
+
 </center>
   <nav id="global">
       <ul>
         <li><a href=".">Home</a></li>
-        <li>Schedule</li>
+        <li><a href="schedule.html">Schedule</a></li>
         <li><a href="rules.html">Rules</a></li>
-        <li>Software</li>
-        <li>Tutorial</li>
-        <li>Entry</li>
-        <li>Preliminary</li>
-        <li>Final</li>
-        <li>FAQ</li>
+        <li><a href="software.html">Software</a></li>
+        <li><a href="tutorial.html">Tutorial</a></li>
+        <li><a href="http://arena.ai-comp.net/">Entry</a></li>
+        <li><a href="preliminary.html">Preliminary</a></li>
+        <li><a href="final.html">Final</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="index-jp.html">Japanese</a></li>
       </ul>
   </nav>
 </header>
-<hr/>
-    <section id="main">
-	  <h2>SamurAI Coding Rules</h2>
-      <p>SamurAI 3x3 (Samurai three on three) is a game played by two armies each consisting of
-three samurai with different weapons, competing for wider territory. Contestants build an
-AI program that decides the actions of the samurai that plays the games. </p>
-      <ul>
-<!--
-	<li><a href="aboutgame-en.html">
-	    Outline of the Samurai 3x3 Game</a></li>
--->
-	<li><a href="rules-en.pdf">
-	    Rule Details and Programming Interface</a></li>
-<!--
-	<li>Tournament rules are described
-	  in <a href="preliminary.html">the preliminary round page</a>
-	  and <a href="final.html">the final round page</a>.</li>
--->
-      </ul>
-    </section>
-    <!--#include virtual="footer.html" -->
+  
+  <hr/>
+  <section class=centered>
+    <img src="./banner.png" title="Banner" width=100%>
+  </section>
+  <section id="abstract">
+    <p><em>SamurAI 3x3</em> (three on three) is a game played with two corps each consisting of three samurai with different weapons, competing for
+broader territory. Each contestant provides an AI program that
+decides actions of one of the samurai, playing games cooperating with
+two other AI programs controlling other samurai. The total score through
+many games, controlling samurai with different weapons with combinations
+of different AI programs, decides the tournament results.
+</p>
+    <p>A brief outline of the game is described below.  Note that game details might be tuned later for better game balance.</p>
+  </section>
+  <section id="main">
+    <h2>1 Game Field and Scoring</h2>
+    <p>The battlefield of the game is mesh-partitioned into squares.  Two corps try to occupy more the squares in the field.  The winner points are given to all the samurai in the corps obtaining more squares, while, whether won or lost, individual samurai are awarded with points proportional to the number of squares which they finally occupied.  Such a game is repeated with different combinations of samurai corps and the total score decides the tournamen results.</p>
+    <h2>2 Actions of Samurai</h2>
+    <p>Each samurai has chances to take actions in turn.  Any number of actions can be chosen within their total cost of 7.</p>
+    <ul>
+      <li>Hide (cost 1): Samurai in friend territory can hide himself from the eyes of enemy corps.</li>
+      <li>Show (cost 1): Hiding samurai can show himself if he is in a square with no other shown samurai.</li>
+      <li>Move (cost 2): Samurai can move to one of four adjacent squares.  No two samurai can be in a single square when both are not hiding.  Hiding samurai can only move to friend territory.</li>
+      <li>Occupy (cost 4): Samurai can occupy some of the squares close-by, making them friend territory.  Occupation is possible not also for neutral or enemy teritory squares but also for squares already occupied by other samurai of the friend corps.  Squares occupied depends on the weapon wielded.  Enemy samurai in the occupied squares are injured, forced to warp back to his home position, and disabled his action for the prescribed number of turns.</li>
+    </ul>
+    <div style="width: 350px; float: right;">
+      <table style="width: 100%; text-align: center;">
+	<tr>
+	  <td><img src="spear.png" title="Spear" width=100%></td>
+	  <td><img src="swords.png" title="Swords" width=100%></td>
+	  <td><img src="battleaxe.png" title="Battleaxe" width=100%></td>
+	</tr>
+	<tr>
+	  <td>Spear</td>
+	  <td>Swords</td>
+	  <td>Battleaxe</td>
+	</tr>
+      </table>
+    </div>
+    <p>Any combinations of these actions are possible: "Move to target an enemy and occupy" is one option; Ninja actions such as "Show, occupy, and hide again" or "Show, move through enemy territory to a firendly terrotry, and hide" are also be possible.  This is where your "AI" is tested whether it is actually intelligent or not.</p>
+    <p>Three samurai of a corps wield different weapons (a spear, swords, or a battleaxe).  The squares occupied with one action depends on the weapon wielded.  When the samurai is on the square shown in the figures, squares painted green can be occupied.  Occupation actions can be toward any rotations of muliples of 90 degrees of the shown direction.</p>
+    <h2>3 Available Information</h2>
+    <img src="visionfield.png" width=300 style="float:right;">
+    <p>Information is available only on squares within the vision fields of the samurai of friend corps.  Vision of a samurai is limited to squares within Manhattan distance of five from where the samurai is at.  For such squares, the samurai can know whether the square has ever been occupied and, if so, who occupied it last.  The position of all friend samurai and their hide/show state are known, while, for enemy samurai, their positions can only be detected when they show themselves within the vision fields of a friend samurai.  Samurai AI has to decide their action based on such limited information (and the memories at actions taken before).  Moving towards unexplored area for conveying information to the friends may form good tactics.</p>
+  </section>
+
+  <section id="Snapshot" class="centered">
+    <img src="snapshot.png" width=100% title="Screen Snapshot">
+  </section>
 
 <hr>
 <footer>
@@ -84,9 +111,9 @@ AI program that decides the actions of the samurai that plays the games. </p>
       	    <p class=address>Kagaku-kaikan (Chemistry Hall) 4F<br>
       	      1-5 Kanda-Surugadai, Chiyoda-ku,
       	      Tokyo 101-0062 JAPAN<br>
-      	    email: <a class="contactadddr" href="mailto:samurai-contact@ipsj.or.jp">
+      	    email: <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">
 
-      		  samurai-contact@ipsj.or.jp</a><br>
+      		  samurai2015-contact@ipsj.or.jp</a><br>
             web: <a href="http://www.ipsj.or.jp">http://www.ipsj.or.jp</a>
             </p>
             <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
@@ -95,7 +122,6 @@ AI program that decides the actions of the samurai that plays the games. </p>
       	<td width="300">
       	  <section id="sponsors">
             <h3>Gold Sponsors</h3>
-<!--
             <p>e-Seikatsu Co., Ltd.<br>
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
           <p>Hitachi, Ltd.<br>
@@ -105,9 +131,7 @@ AI program that decides the actions of the samurai that plays the games. </p>
 <p>TIS Inc.<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
 </p>
--->
             <h3>Supporters</h3>
-<!--
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
@@ -118,20 +142,16 @@ AI program that decides the actions of the samurai that plays the games. </p>
 <p>Cray Japan Inc.<br>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 </p>
--->
 
 <h3>Media Sponsors</h3>
-<!--
             <p>GSTYLUS<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
 <p><a href="https://moneyforward.com/">Money Forward, Inc.</a></p>
       	  </section>
--->
       	</td>
       	<td>
       	  <section id="supporters">
       	    <h3>Supporters</h3>
-<!--
             <p class="smaller">
 China Computer Federation<br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="80"/></a><br><br>
@@ -173,7 +193,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 The Ministry of Economy, Trade and Industry<br><br>
 
 The Ministry of Education, Culture, Sports, Science and Technology
--->
+
              </p>
           </section>
       	</td>
@@ -181,6 +201,7 @@ The Ministry of Education, Culture, Sports, Science and Technology
     </table>
   </div>
 </footer>
+
 
   </body>
 </html>

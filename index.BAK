@@ -43,7 +43,7 @@
         <li><a href=".">Home</a></li>
         <li>Schedule</li>
         <li><a href="rules.html">Rules</a></li>
-        <li>Software</li>
+        <li><a href="software.html">Software</a></li>
         <li>Tutorial</li>
         <li>Entry</li>
         <li>Preliminary</li>
@@ -119,6 +119,7 @@ and
     <section id="news">
       <h2>News</h2>
       <ul>
+<li>Nov 1: Game Management System is now available on the <a href="software.html">Software</a>. 
 <li>Oct 10: <a href="rules.html">Rules</a> have been slightly updated.
 <li>Sep 3: Rules and Program Interface are now available on the <a href="rules.html">Rules page</a>.
           <li>Sep 2: This preliminary website has been launched.
@@ -161,7 +162,7 @@ World Final contestants who are not IPSJ members will receive one-year IPSJ memb
 
 <p>
 Travel expense of one representative contestanst per each World final team participating 
-from far away areas  will be partially supported.
+from far away areas will be partially supported.
 Last year World final contestants from out side of Japan received travel expenses up 
 to 100,000JPY per team, 
 and contestants from a long distance within Japan received full travel expenses.

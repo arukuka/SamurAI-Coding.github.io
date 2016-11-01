@@ -2,7 +2,7 @@
   <!--#include virtual="commonhead.html" -->
 <head>
   <meta charset="utf-8">
-  <meta name="Description" content="SamurAI Coding 2016-17">
+  <meta name="Description" content="SamurAI Coding 2015-16">
   <meta name="author" content="Hironori Washizaki">
   <title>SamurAI Coding 2016-17</title>
   <link rel="stylesheet" href="stylesheets/default.css">
@@ -52,28 +52,38 @@
   </nav>
 </header>
 <hr/>
+
     <section id="main">
-	  <h2>SamurAI Coding Rules</h2>
-      <p>SamurAI 3x3 (Samurai three on three) is a game played by two armies each consisting of
-three samurai with different weapons, competing for wider territory. Contestants build an
-AI program that decides the actions of the samurai that plays the games. </p>
+	  <h2>Software</h2>
+      <p>The following software systems are currently available for
+	the SamurAI 3x3 2016 game.</p>
       <ul>
+	<li><a href="software/samurai-software-20161031.tgz">
+	    SamurAI 3x3 2016 Game Management System</a>:
+	  Manages a SamurAI 3x3 2016 game according to its rules, invoking
+	  AI programs to control samurai.
+	  Several sample AI programs are also included.
+	  See the README file for details.
+	</li>
 <!--
-	<li><a href="aboutgame-en.html">
-	    Outline of the Samurai 3x3 Game</a></li>
--->
-	<li><a href="rules-en.pdf">
-	    Rule Details and Programming Interface (version September 14, 2016)</a></li>
-<!--
-	<li>Tournament rules are described
-	  in <a href="preliminary.html">the preliminary round page</a>
-	  and <a href="final.html">the final round page</a>.</li>
+	<li>Sample AI programs in languages other than C++.
+	  <ul>
+	    <li><a href="software/python2-player-0106.tgz">Python 2 (updated on Jan. 6)</a></li>
+	    <li><a href="software/java-player-1218.tgz">Java (updated on Dec. 18)</a></li>
+	  </ul>
+	</li>
+	<li><a href="software/SamurAI_Visualizer.jar">
+	    Game Log Visualizer</a>:
+	  Graphical visualizer for game logs output by the game
+	  management system.
+	  This tool is written in Java.
+	</li>
 -->
       </ul>
     </section>
-    <!--#include virtual="footer.html" -->
 
 <hr>
+    <!--#include virtual="footer.html" -->
 <footer>
   <div>
     <table class="multicolumn">
@@ -84,9 +94,9 @@ AI program that decides the actions of the samurai that plays the games. </p>
       	    <p class=address>Kagaku-kaikan (Chemistry Hall) 4F<br>
       	      1-5 Kanda-Surugadai, Chiyoda-ku,
       	      Tokyo 101-0062 JAPAN<br>
-      	    email: <a class="contactadddr" href="mailto:samurai-contact@ipsj.or.jp">
+      	    email: <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">
 
-      		  samurai-contact@ipsj.or.jp</a><br>
+      		  samurai2015-contact@ipsj.or.jp</a><br>
             web: <a href="http://www.ipsj.or.jp">http://www.ipsj.or.jp</a>
             </p>
             <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
@@ -119,14 +129,13 @@ AI program that decides the actions of the samurai that plays the games. </p>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 </p>
 -->
-
 <h3>Media Sponsors</h3>
 <!--
             <p>GSTYLUS<br>
             <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="60"/></a></p>
 <p><a href="https://moneyforward.com/">Money Forward, Inc.</a></p>
-      	  </section>
 -->
+      	  </section>
       	</td>
       	<td>
       	  <section id="supporters">
@@ -173,7 +182,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 The Ministry of Economy, Trade and Industry<br><br>
 
 The Ministry of Education, Culture, Sports, Science and Technology
--->
+
              </p>
           </section>
       	</td>

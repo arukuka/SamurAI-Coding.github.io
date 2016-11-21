@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SamurAI 3x3</title>
+    <script type="text/javascript">
+      playerIcons = ["logos/def0.png", "logos/def1.png"];
+      playerNames = ["Masamune", "Kenshin"];
+      userNames = ["Masamune-san", "Kenshin"];
+      replay=[];
+
+      window.onresize = function() {
+        var width = window.innerWidth;
+        var stgWidth = width - 100;
+        var stgHeight = width * 3 / 4;
+        var stgStyle =  document.getElementById('enchant-stage');
+        var turnStyle =  document.getElementById('turn').style;
+        var delayStyle =  document.getElementById('delay').style;
+        stgStyle.width = `${stgWidth}px`;
+        stgStyle.height = `${stgHeight}px`;
+        turnStyle.width = `${stgWidth}px`;
+        delayStyle.width = `${stgWidth}px`;
+      }
+    </script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/enchant.js"></script>
+    <script src="js/ui.enchant.js"></script>
+    <script src="js/game.js"></script>
+  </head>
+  <body>
+    <div id="drop_zone">
+      <div id="enchant-stage" style="width:1000px;height:750px;display:none;"></div>
+      <input type="hidden" id="hiddenlog" value="">
+      <div id="delay-container" style="display:none;">
+        <div>Latency</div>
+        <input type="range" id="delay" style="width:1000px;" min="5" max="100" step="5" value="30" autocomplete="off" onchange="changeDelay(this.value)">
+      </div>
+      <script type="text/javascript">
+        function changeDelay(value) {
+          delaytime = value;
+          RestartAutoUpdate();
+        }
+      </script>
+      <div id="turn-container" style="display:none;">
+        <div>Turn</div>
+        <input type="range" id="turn" style="width:1000px;" min="0" max="1000" step="1" value="0" autocomplete="off" onchange="changeTurn(this.value)"><dev id="turnNum">0</dev>/<dev id="maxTurn">0</dev>
+      </div>
+      <script type="text/javascript">
+        function changeTurn(value) {
+          curTurn = value;
+          UpdateField(curTurn);
+        }
+      </script>
+      <output id="list"></output>
+     <script>
+        function handleFileSelect(evt) {
+          evt.stopPropagation();
+          evt.preventDefault();
+
+          var files = evt.dataTransfer.files; // FileList object.
+          if (files.length != 1) {
+            window.alert("一度に読み込めるファイル数は１つのみです。");
+          }
+
+          var file = files[0];
+          var output = [];
+          output.push('<li><strong>', escape(file.name), '</strong>', file.lastModifiedDate.toLocaleDateString(), '</li>');
+          document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+          var reader = new FileReader();
+          reader.onload = function(evt) {
+            if (evt.target.readyState == FileReader.DONE) {
+              document.getElementById('hiddenlog').value = evt.target.result;
+              document.getElementById('enchant-stage').style.display = 'block';
+              document.getElementById('delay-container').style.display = 'block';
+              document.getElementById('turn-container').style.display = 'block';
+              initialize();
+              parseLog();
+            }
+          };
+          // Read in the image file as a data URL.
+          reader.readAsText(file);
+        }
+
+        function handleDragOver(evt) {
+          evt.stopPropagation();
+          evt.preventDefault();
+          evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
+        }
+        window.addEventListener('dragover', handleDragOver, false);
+        window.addEventListener('drop', handleFileSelect, false);
+      </script>
+  </body>
+</html>

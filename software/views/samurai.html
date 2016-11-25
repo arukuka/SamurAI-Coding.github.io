@@ -29,6 +29,14 @@
   </head>
   <body>
     <div id="drop_zone">
+      <div id="dropHereMessage" style="text-align:center;">
+        <img src="http://samuraicoding.info/banner.png" width="80%" />
+        <h1>
+          Drag and Drop a Game Log File Here.<br>
+          ゲームのログファイルをここにドラッグ＆ドロップしてください。
+        </h1>
+      </div>
+      </p>
       <div id="enchant-stage" style="width:1000px;height:750px;display:none;"></div>
       <input type="hidden" id="hiddenlog" value="">
       <div id="delay-container" style="display:none;">
@@ -79,6 +87,7 @@
           };
           // Read in the image file as a data URL.
           reader.readAsText(file);
+          document.getElementById("dropHereMessage").innerHTML = "";
         }
 
         function handleDragOver(evt) {

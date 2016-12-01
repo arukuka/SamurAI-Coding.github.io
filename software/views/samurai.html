@@ -72,7 +72,7 @@
 
           var file = files[0];
           var output = [];
-          output.push('<li><strong>', escape(file.name), '</strong>', file.lastModifiedDate.toLocaleDateString(), '</li>');
+          output.push('<li><strong>', escape(file.name), '</strong>', '</li>');
           document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
           var reader = new FileReader();
           reader.onload = function(evt) {

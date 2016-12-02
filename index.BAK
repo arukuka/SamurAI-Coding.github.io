@@ -16,28 +16,32 @@
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a>
-<a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="105"/></a><br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="100"/></a>
-<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="80"/></a>
-<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="90"/></a>
-<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="90"/></a>
-<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="90"/></a>
-<a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="90"/></a>
-<a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="60"/></a>
-<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="70"/></a>
-<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="90"/></a>
+<a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a>
+<a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
+<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
+<br>
+<a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
+<br>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="75"/></a>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="75"/></a>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="75"/></a>
+<a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="65"/></a>
+<a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
+<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a>
+<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
 </center>
   <nav id="global">
       <ul>
         <li><a href=".">Home</a></li>
-        <li>Schedule</li>
+        <li><a href="schedule.html">Schedule</a></li>
         <li><a href="rules.html">Rules</a></li>
         <li><a href="software.html">Software</a></li>
-        <li>Tutorial</li>
-        <li>Entry</li>
-        <li>Preliminary</li>
-        <li>Final</li>
-        <li>FAQ</li>
+        <li><a href="https://arena.ai-comp.net/">Entry</a></li>
+        <li><a href="preliminary.html">Preliminary</a></li>
+        <li><a href="final.html">Final</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="index-jp.html">Japanese</a></li>
       </ul>
   </nav>
@@ -71,9 +75,9 @@ and
 </tr>
 </table>
 
+<!--
     <section id="sponsors">
     <h2>Sponsors and Supporters</h2>
-<!--
 <p>
 <table cellpadding="10">
 <tr align="center">
@@ -108,6 +112,9 @@ and
     <section id="news">
       <h2>News</h2>
       <ul>
+<li>Dec 2: <a href="https://arena.ai-comp.net/">Registration for online preliminary round</a> is now available. Register now!
+<li>Nov 25: Game Management System and Visualizer have been updated. See <a href="software.html">Software</a>.
+<li>Nov 21: Visualizer is now available on the <a href="software.html">Software</a>.
 <li>Nov 11: Game Management System has been updated. See <a href="software.html">Software</a>. 
 <li>Nov 1: Game Management System is now available on the <a href="software.html">Software</a>. 
 <li>Oct 10: <a href="rules.html">Rules</a> have been slightly updated.
@@ -120,9 +127,7 @@ and
       <h2>Registration and Submission</h2>
 
 <p>There is no age limit. Moreover contestants can participate in the contest as individual or team; there is no maximum number of team members.</p>
-<!--
-<p>Please register your information and submit your program on the contest server. (TBD)</p>
--->
+<p>Please register your information and submit your program on <a href="https://arena.ai-comp.net/">the contest server</a>.</p>
 
    <section id="prize">
 <h2>Prize</h2>
@@ -165,10 +170,11 @@ All World Final contestants will be presented on the contest site.
     </section>
 
     <section id="importantdates">
-      <h2>Important Dates (TBD)</h2>
+      <h2>Important Dates</h2>
       <ul>
       	<li>Rule announcement: Sep-Oct 2016</li>
-        <li>Online preliminary round: Nov 2016-Feb 2017</li>
+<li>Due of call for challenge of online preliminary round: Feb 11, 2017 AoE</li>
+<li>Result announcement of call for challenge of online preliminary round: around Feb 17, 2017. 16 teams will be selected for the world final. Among them, up to five teams will be selected in consideration of diversity and geographical distribution.</li>
         <li>World final round in Nagoya (collocated with 79th IPSJ National Convention at <a href="http://en.nagoya-u.ac.jp/access/index.html">Nagoya University, Higashiyama Campus</a>): March 17, 2017</li>
       </ul>
     </section>
@@ -176,10 +182,10 @@ All World Final contestants will be presented on the contest site.
 <section id="game">
       <h2>Game and AI</h2>
 <p>Contestants compete on their design and engineering skills of algorithms and AI strategies in addition to programming skills. See details at <a href="rules.html">Game Rules</a>.</p>
-<p>Contestants can choose a certain programming language among various major languages including C++ and Java. (TBD)</p>
+<p>Contestants can choose a certain programming language among various major languages including C++, Java and Python. See details at <a href="https://github.com/AI-comp/ai-comp.github.com/blob/master/doc/available_languages.md">this page</a>. </p>
 </section>
     <section class="centered">
-      <img src="snapshot.png" width=100% />
+      <img src="snapshot.png" width=60% />
     </section>
 
     <section id="committee">
@@ -218,11 +224,16 @@ All World Final contestants will be presented on the contest site.
             <p>e-Seikatsu Co., Ltd.<br>
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
             <p>teamLab<br>
-            <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="105"/></a></p>
+            <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a></p>
+
+          <p>Hitachi, Ltd.<br>
+            <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a></p>
+
+<p>Fujitsu Limited<br>
+<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
+</p>
 
 <!--
-          <p>Hitachi, Ltd.<br>
-            <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="145"/></a></p>
 <p>RecoChoku Co.,Ltd.<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></p>
 <p>TIS Inc.<br>
@@ -230,14 +241,16 @@ All World Final contestants will be presented on the contest site.
 </p>
 -->
             <h3>Supporters</h3>
+
+<p>Japan Registry Services Co., Ltd.<br>
+<a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
+</p>
+
 <!--
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
 
-<p>Fujitsu Limited<br>
-<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="80"/></a>
-</p>
 <p>Cray Japan Inc.<br>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 </p>
@@ -264,39 +277,41 @@ Department of Information and Computer Science, Faculty of Science and Technolog
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="60"/></a><br><br>
 -->
 
+This program is supported by the Grant of Kayamori Foundation of International Science Advancement.<br><br>
+
 IEEE Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="100"/></a><br><br>
+<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a><br><br>
 
 IEEE Computer Society Japan Chapter<br><br>
 
 IEEE Japan Office<br>
-<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="80"/></a><br><br>
+<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a><br><br>
 
 Information Technology Promotion Agency, Japan<br>
-<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="90"/></a>
+<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
 <br><br>
 
 International Information Science Foundation<br><br>
 
 Japan Electronics and Information Technology Industries Association<br>
-<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="90"/></a><br><br>
+<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="75"/></a><br><br>
 
 Japan Information Technology Services Industry Association<br>
-<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="90"/></a><br><br>
+<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="75"/></a><br><br>
 
 Japan Society for Software Science and Technology<br>
-<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="90"/></a><br><br>
+<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="75"/></a><br><br>
 
 Japan Users Association of Information Systems<br>
-<a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="90"/></a>
+<a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="65"/></a>
 <br><br>
 
-The Institute of Electronics, Information and Communications Engineers<br>
-<a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="60"/></a>
+The Institute of Electronics, Information and Communication Engineers<br>
+<a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
 <br><br>
 
 The Japanese Society for Artificial Intelligence<br>
-<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="70"/></a><br><br>
+<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a><br><br>
 
 <!--
 The Korean Institute of Information Scientists and Engineers<br>

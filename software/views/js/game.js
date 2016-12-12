@@ -33,6 +33,7 @@ var game;
 var samurai;
 var field;
 var isTimeout;
+var Comment;
 
 var curePeriod = 0;
 
@@ -70,6 +71,8 @@ function initialize() {
   samurai = [];
   field = [];
   isTimeout = [];
+  Comment = [];
+  Comment[0] = "";
 
   curePeriod = 0;
 }
@@ -266,11 +269,11 @@ const tile = ['rgb(255, 0, 0)', //red
         }
         if (action == 0) break;
         if (action > 9) {
-          commentBoard.text = "!!! Invalid action code number: " + action + "at turn " + turn;
+          Comment[turn] = "!!! Invalid action code number: " + action + "at turn " + turn;
           break;
         }
         if (COST[action] > cost) {
-          commentBoard.text = "!!! Budget overrun at turn " + turn;
+          Comment[turn] = "!!! Budget overrun at turn " + turn;
           break;
         }
         cost -= COST[action];
@@ -278,7 +281,7 @@ const tile = ['rgb(255, 0, 0)', //red
         if (1 <= action && action <= 4) { // occupy
           if (samurai[samuraiID].hidden) {
 
-            commentBoard.text = "!!! Cannot occupy under hidden" + " at turn " + turn;
+            Comment[turn] = "!!! Cannot occupy under hidden" + " at turn " + turn;
             break;
           }
           ox = samurai[samuraiID].weapon.ox;
@@ -341,12 +344,12 @@ const tile = ['rgb(255, 0, 0)', //red
           var nx = samurai[samuraiID].pos.x + ofs[action - 5][0];
           var ny = samurai[samuraiID].pos.y + ofs[action - 5][1];
           if (nx < 0 || fieldx <= nx || ny < 0 || fieldy <= ny) {
-            commentBoard.text = "!!! Cannot move to out of field" + " at turn " + turn;
+            Comment[turn] = "!!! Cannot move to out of field" + " at turn " + turn;
             break;
           }
           var owner = field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].owner;
           if (samurai[samuraiID].hidden && (owner == -1 || Math.floor(owner / 3) != turn % 2)) {
-            commentBoard.text = "!!! Cannot move to not our territories under hidden" + " at turn " + turn;
+            Comment[turn] = "!!! Cannot move to not our territories under hidden" + " at turn " + turn;
             break;
           }
           if (!samurai[samuraiID].hidden) {
@@ -387,7 +390,7 @@ const tile = ['rgb(255, 0, 0)', //red
           } else {
             var owner = field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].owner;
             if (owner == -1 || Math.floor(owner / 3) != turn % 2) {
-              commentBoard.text = "!!! Cannot hide on not our territories" + " at turn " + turn;
+              Comment[turn] = "!!! Cannot hide on not our territories" + " at turn " + turn;
               break;
             }
             samurai[samuraiID].hidden = true;
@@ -422,6 +425,7 @@ const tile = ['rgb(255, 0, 0)', //red
           }		    
         }
       }
+      Comment[turn+1] = "";
 
     }
   }
@@ -455,7 +459,6 @@ const tile = ['rgb(255, 0, 0)', //red
     commentBoard = new Label();
     commentBoard.x = xmargin + xsize * fieldx * 1 / 2;
     commentBoard.y = 0;
-    commentBoard.font = "24px 'Times New Roman', 'serif', 'sans-serif'";
     game.rootScene.addChild(commentBoard);
 
 
@@ -836,7 +839,12 @@ const tile = ['rgb(255, 0, 0)', //red
         }
       }
     }
-
+    
+    if (Comment[turn] != "\"\"") {
+      commentBoard.text = Comment[turn];
+    } else {
+      commentBoard.text = "";
+    }
     var score = new Array();
     for (s = 0; s < 7; ++s) {
       score[s] = 0;

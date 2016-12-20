@@ -22,7 +22,7 @@
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
-<a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a> 
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="75"/></a> 
 <br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
 <a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a>
@@ -51,13 +51,14 @@
 <hr/>
 
    <section id="importantdates">
-      <h2>Important Dates</h2>
-      <ul>
-      	<li>Rule announcement: Sep-Oct 2016</li>
-<li>Due of call for challenge of online preliminary round: Feb 11, 2017 AoE</li>
-<li>Result announcement of call for challenge of online preliminary round: around Feb 17, 2017. 16 teams will be selected for the world final. Among them, up to five teams will be selected in consideration of diversity and geographical distribution.</li>
-        <li>World final round in Nagoya (collocated with 79th IPSJ National Convention at <a href="http://en.nagoya-u.ac.jp/access/index.html">Nagoya University, Higashiyama Campus</a>): March 17, 2017</li>
-      </ul>
+      <h2>FAQ</h2>
+      <p>Frequent Asked Questions and corresponding answers are available here.</p>
+      <p>If you have any question, please contact us at <a class="contactadddr" href="mailto:samurai2015-contact@ipsj.or.jp">samurai2015-contact@ipsj.or.jp</a></p>
+
+<ul>
+<li>
+</ul>
+
     </section>
 
 <hr>
@@ -96,6 +97,7 @@
 
 <p>RecoChoku Co.,Ltd.<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
+
 <!--
 <p>TIS Inc.<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
@@ -120,7 +122,7 @@
 <h3>Media Sponsors</h3>
 
             <p>GSTYLUS<br>
-            <a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
 <!--
 <p><a href="https://moneyforward.com/">Money Forward, Inc.</a></p>
       	  </section>
@@ -192,8 +194,6 @@ The Ministry of Education, Culture, Sports, Science and Technology
     </table>
   </div>
 </footer>
-
-
 
 
   </body>

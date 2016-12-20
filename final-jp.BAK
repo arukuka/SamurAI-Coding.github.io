@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <!--#include virtual="commonhead.html" -->
 <head>
   <meta charset="utf-8">
-  <meta name="Description" content="SamurAI Coding 2016-17">
+  <meta name="description" content="SamurAI Coding 2016-17">
   <meta name="author" content="Hironori Washizaki">
   <title>SamurAI Coding 2016-17</title>
   <link rel="stylesheet" href="stylesheets/default.css">
 </head>
 
   <body>
-  <!--#include virtual="header.html" -->
+    <!--#include virtual="header-jp.html" -->
 <header id="mast">
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
@@ -22,7 +22,7 @@
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
-<a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a> 
+<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="75"/></a> 
 <br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
 <a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a>
@@ -36,110 +36,109 @@
 </center>
   <nav id="global">
       <ul>
-        <li><a href=".">Home</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="rules.html">Rules</a></li>
-        <li><a href="software.html">Software</a></li>
-        <li><a href="https://arena.ai-comp.net/">Entry</a></li>
-        <li><a href="preliminary.html">Preliminary</a></li>
-        <li><a href="final.html">Final</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="index-jp.html">Japanese</a></li>
+        <li><a href="index-jp.html">ホーム</a></li>
+        <li><a href="schedule-jp.html">日程</a></li>
+        <li><a href="rules-jp.html">ルール</a></li>
+        <li><a href="software-jp.html">ソフトウェア</a></li>
+        <li><a href="https://arena.ai-comp.net/">参加登録</a></li>
+        <li><a href="preliminary-jp.html">予選</a></li>
+        <li><a href="final-jp.html">決勝</a></li>
+        <li><a href="faq-jp.html">FAQ</a></li>
+        <li><a href="sponsor-jp.html">スポンサー</a></li>
+        <li><a href="index.html">English</a></li>
       </ul>
   </nav>
 </header>
 <hr/>
 
-   <section id="importantdates">
-      <h2>Important Dates</h2>
-      <ul>
-      	<li>Rule announcement: Sep-Oct 2016</li>
-<li>Due of call for challenge of online preliminary round: Feb 11, 2017 AoE</li>
-<li>Result announcement of call for challenge of online preliminary round: around Feb 17, 2017. 16 teams will be selected for the world final. Among them, up to five teams will be selected in consideration of diversity and geographical distribution.</li>
-        <li>World final round in Nagoya (collocated with 79th IPSJ National Convention at <a href="http://en.nagoya-u.ac.jp/access/index.html">Nagoya University, Higashiyama Campus</a>): March 17, 2017</li>
-      </ul>
-    </section>
+<h2>決勝</h2>
+
+<h3>ルール</h3>
+<ul>
+  <li>決勝ルール</li>
+</ul>
+
+<h3>結果＆提出プログラム</h3>
+
+(TBD)
 
 <hr>
 <footer>
   <div>
     <table class="multicolumn">
       <tr>
-      	<td width="250">
-      	  <section id="contact">
-      	    <h3>Information Processing Society of Japan</a></h3>
-      	    <p class=address>Kagaku-kaikan (Chemistry Hall) 4F<br>
-      	      1-5 Kanda-Surugadai, Chiyoda-ku,
-      	      Tokyo 101-0062 JAPAN<br>
-      	    email: <a class="contactadddr" href="mailto:samurai-contact@ipsj.or.jp">
-
-      		  samurai-contact@ipsj.or.jp</a><br>
-            web: <a href="http://www.ipsj.or.jp">http://www.ipsj.or.jp</a>
-            </p>
-            <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a>
-      	  </section>
-      	</td>
-      	<td width="300">
-      	  <section id="sponsors">
-            <h3>Gold Sponsors</h3>
-            <p>e-Seikatsu Co., Ltd.<br>
+        <td width="250">
+          <section id="contact">
+            <h3>情報処理学会</h3>
+            <p class=address>〒101-0062 東京都千代田区駿河台1-5 化学会館 4階</p>
+            <p>email: <a class="contactadddr" href="mailto:samurai-contact@ipsj.or.jp">
+          samurai-contact@ipsj.or.jp</a></p>
+          <a href="http://www.ipsj.or.jp/"><img src="images/IPSJ_logoB_M.gif" width="200"/></a>
+          </section>
+        </td>
+        <td width="300">
+          <section id="sponsors">
+            <h3>ゴールドスポンサー</h3>
+            <p>株式会社いい生活<br>
             <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
-            <p>teamLab<br>
+            <p>チームラボ株式会社<br>
             <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a></p>
 
-          <p>Hitachi, Ltd.<br>
-            <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a></p>
+<p>株式会社日立製作所<br>
+<a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a></p>
 
-<p>Fujitsu Limited<br>
-<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
+<p>富士通株式会社<br>
+<a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
 </p>
 
-<p>RecoChoku Co.,Ltd.<br>
+<p>株式会社レコチョク<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
+
 <!--
-<p>TIS Inc.<br>
+<p>TIS株式会社<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
 </p>
 -->
-            <h3>Supporters</h3>
 
-<p>Japan Registry Services Co., Ltd.<br>
+            <h3>サポーター</h3>
+
+<p>株式会社日本レジストリサービス（JPRS）<br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 </p>
 
 <!--
-<p>Vocal School, Venus<br>
+<p>ヴォーカル・スクール ヴィーナス<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
 </p>
 
-<p>Cray Japan Inc.<br>
+<p>クレイ・ジャパン・インク<br>
 <a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
 </p>
 -->
 
-<h3>Media Sponsors</h3>
+<h3>メディアスポンサー</h3>
 
-            <p>GSTYLUS<br>
-            <a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
+            <p>株式会社ジースタイラス<br>
+            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
+
 <!--
-<p><a href="https://moneyforward.com/">Money Forward, Inc.</a></p>
-      	  </section>
+<p><a href="https://moneyforward.com/">株式会社マネーフォワード</a></p>
 -->
-      	</td>
-      	<td>
-      	  <section id="supporters">
-      	    <h3>Supporters</h3>
-
+          </section>
+        </td>
+        <td>
+          <section id="supporters">
+            <h3>協賛</h3>
             <p class="smaller">
 <!--
 China Computer Federation<br>
 <a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="80"/></a><br><br>
 
-Department of Information and Computer Science, Faculty of Science and Technology, Keio University<br>
+慶應義塾大学理工学部情報工学科<br>
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="60"/></a><br><br>
 -->
 
-This program is supported by the Grant of Kayamori Foundation of International Science Advancement.<br><br>
+本事業は、公益財団法人栢森情報科学振興財団による助成を受けています。<br><br>
 
 IEEE Computer Society<br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a><br><br>
@@ -149,52 +148,50 @@ IEEE Computer Society Japan Chapter<br><br>
 IEEE Japan Office<br>
 <a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a><br><br>
 
-Information Technology Promotion Agency, Japan<br>
-<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
-<br><br>
+財団法人 情報科学国際交流財団<br><br>
 
-International Information Science Foundation<br><br>
-
-Japan Electronics and Information Technology Industries Association<br>
+一般社団法人電子情報技術産業協会<br>
 <a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="75"/></a><br><br>
 
-Japan Information Technology Services Industry Association<br>
+一般社団法人情報サービス産業協会<br>
 <a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="75"/></a><br><br>
 
-Japan Society for Software Science and Technology<br>
+一般社団法人日本ソフトウェア科学会<br>
 <a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="75"/></a><br><br>
 
-Japan Users Association of Information Systems<br>
+一般社団法人日本情報システム・ユーザー協会<br>
 <a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="65"/></a>
 <br><br>
 
-The Institute of Electronics, Information and Communication Engineers<br>
+一般社団法人電子情報通信学会<br>
 <a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
 <br><br>
 
-The Japanese Society for Artificial Intelligence<br>
+一般社団法人人工知能学会<br>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a><br><br>
 
 <!--
 The Korean Institute of Information Scientists and Engineers<br>
-<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a><br><br>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
 -->
-
-<!--
-The Ministry of Economy, Trade and Industry<br><br>
--->
-
-The Ministry of Education, Culture, Sports, Science and Technology
-             </p>
+            </p>
           </section>
-      	</td>
+          <section id="backers">
+            <h3>後援</h3>
+            <p class="smaller">
+独立行政法人情報処理推進機構<br>
+<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
+
+<br><br>
+<!-- 経済産業省<br><br> -->
+文部科学省
+            </p>
+          </section>
+        </td>
       </tr>
     </table>
   </div>
 </footer>
-
-
-
 
   </body>
 </html>

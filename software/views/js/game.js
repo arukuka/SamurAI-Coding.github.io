@@ -418,7 +418,7 @@ const tile = ['rgb(255, 0, 0)', //red
         if (samurai[p].occupiedTurn != -1) {
           if (samurai[p].occupiedTurn + curePeriod <= turn+1) {
             field[turn+1][samurai[p].pos.x][samurai[p].pos.y].curing = false;
-            samurai[p].occupiedturn = -1;
+            samurai[p].occupiedTurn = -1;
           }
           else {
             field[turn+1][samurai[p].pos.x][samurai[p].pos.y].curing = true;

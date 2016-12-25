@@ -347,7 +347,7 @@ const tile = ['rgb(255, 0, 0)', //red
             Comment[turn] = "!!! Cannot move to out of field" + " at turn " + turn;
             break;
           }
-          var owner = field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].owner;
+          var owner = field[turn + 1][nx][ny].owner;
           if (samurai[samuraiID].hidden && (owner == -1 || Math.floor(owner / 3) != turn % 2)) {
             Comment[turn] = "!!! Cannot move to not our territories under hidden" + " at turn " + turn;
             break;

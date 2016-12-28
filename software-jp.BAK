@@ -22,7 +22,7 @@
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
-<a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="75"/></a> 
+<a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a> 
 <br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
 <a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a>
@@ -54,14 +54,14 @@
 	  <h2>ソフトウェア</h2>
       <p>SamurAI 3x3 2016 ゲーム関連のソフトウェアとして、以下のものが公開されています。
       <ul>
-	<li><a href="software/samurai-software-20161124.tgz">
-	    SamurAI 3x3 2016 ゲームの実行管理システム</a> (2016年11月25日更新):
+	<li><a href="software/samurai-software-20161221.tgz">
+	    SamurAI 3x3 2016 ゲームの実行管理システム</a> (2016年12月21日更新):
 	  サムライを制御する AI プログラムを呼び出して、ルールにのっとってゲームの進行を管理します。
 	  いくつかの AI プログラムのサンプルも含まれています。
 	  詳しくは README.jp を見てください。
 	</li>
   <li><a href="software/views/samurai.html">
-      ゲームログの可視化ツール</a> (2016年11月25日更新):
+      ゲームログの可視化ツール</a> (2016年12月24日更新):
     実行管理システムが出力するゲームログをグラフィカルに可視化するプログラムです。
   </li>
 <!--
@@ -133,7 +133,7 @@
 <h3>メディアスポンサー</h3>
 
             <p>株式会社ジースタイラス<br>
-            <a href="http://www.gstylus.co.jp/index.asp"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
+            <a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
 
 <!--
 <p><a href="https://moneyforward.com/">株式会社マネーフォワード</a></p>
@@ -154,6 +154,8 @@ China Computer Federation<br>
 
 本事業は、公益財団法人栢森情報科学振興財団による助成を受けています。<br><br>
 
+名古屋大学 大学院 情報科学研究科<br>
+<br>
 IEEE Computer Society<br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a><br><br>
 

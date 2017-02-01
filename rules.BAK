@@ -21,6 +21,7 @@
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
+<a href="https://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
 <a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a> 
 <br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
@@ -117,6 +118,11 @@ AI program that decides the actions of the samurai that plays the games. </p>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 </p>
 
+<p>Yahoo Japan Corporation<br>
+<a href="https://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="90"/></a>
+</p>
+
+
 <!--
 <p>Vocal School, Venus<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
@@ -198,6 +204,8 @@ The Ministry of Economy, Trade and Industry<br><br>
 -->
 
 The Ministry of Education, Culture, Sports, Science and Technology
+<br><br>
+The Ministry of Internal Affairs and Communications
              </p>
           </section>
       	</td>

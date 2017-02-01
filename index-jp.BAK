@@ -22,6 +22,7 @@
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
+<a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>　
 <a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a> 
 <br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
@@ -105,6 +106,8 @@
     <section id="news">
       <h2>ニュース</h2>
       <ul>
+<li>2月1日: コンテストサーバーは現在不安定な状態が続いています。委員会として本問題の解決に取り組んでいるところです。
+<li>2月1日: コンテストサーバーにおける対戦頻度を上げました。
 <li>1月14日: コンテストサーバーの不調により1月10-13日においてAIプログラムの実行に失敗するなどの現象を生じていました。
 <li>12月24日: ビジュアライザの問題を修正しました。
 <li>12月22日: <a href="final-jp.html">決勝ラウンドのルール</a>（12月22日版）を公開しました。
@@ -263,6 +266,10 @@
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 </p>
 
+<p>ヤフー株式会社<br>
+<a href="https://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
+</p>
+
 <!--
 <p>ヴォーカル・スクール ヴィーナス<br>
 <a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
@@ -346,7 +353,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 <!-- 経済産業省<br><br> -->
 文部科学省
 <br><br>
-総務省（予定）
+総務省
             </p>
           </section>
         </td>

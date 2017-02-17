@@ -116,7 +116,12 @@ and
     <section id="news">
       <h2>News</h2>
       <ul>
-<li>Feb 12: Entry for the online preliminary round has been closed. Thank you for many submissions! Result announcement of call for challenge of online preliminary round is scheduled around Feb 17 AoE. The notification date is subject to be change; we will announce it In the case of the change. 
+<li>Feb 16: The result of the online preliminary round is out! 
+Congratulations to all 16 winners (among 136 teams)! 
+For other teams that lost the online preliminary round, 
+come to Nagoya and watch the World final together! 
+Moreover later we will let you know about the banquet invitation soon.
+<li>Feb 12: Entry for the online preliminary round has been closed. Thank you for many submissions! Result announcement of call for challenge of online preliminary round is scheduled around Feb 17 AoE. The notification date is subject to be change; we will announce it in the case of the change. 
 <li>Feb 11: All of AI programs submitted and available on the battle execution server at the timing of due of call for challenge of online preliminary round will be automatically used for the online preliminary round. Note that the current rating displayed on the battle execution server is independent from the online preliminary round; the online preliminary round will be conducted independently based on <a href="http://samuraicoding.info/preliminary.html">its rule</a>. 
 <li>Feb 8: We fixed the bug which prevented you from uploading new AI programs. This bug was introduced when we added the CPU and memory restrictions yesterday.
 <li>Feb 7: We added the CPU restrinction (1 core per 1 AI) and memory restriction (1GB per 1 AI) to make matches fairer.

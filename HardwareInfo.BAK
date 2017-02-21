@@ -23,7 +23,7 @@
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 <a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
-<a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a> 
+<a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a>
 <br>
 <a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
 <a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a>
@@ -54,10 +54,11 @@
     <section id="main">
       <h2>Hardware Environment of Online Execution</h2>
       <ul>
-      　　<li>Storage: SSD 30 GB</li>
-      　　<li>Memory: 1 GB</li>
+      　　<li>Storage: SSD 111 GB (RAID 1)</li>
+      　　<li>Memory: 8 GB</li>
       　　<li>CPU: 2 Cores</li>
-      　　<li>Please see <a href="http://vps.sakura.ad.jp/specification/">the information page</a> of virtual private server (VPS) using 1G plan hosted by SAKURA Internet Inc..</li>
+      　　<li>The contest system uses the CPU restrinction (1 core per 1 AI) and memory restriction (1GB per 1 AI) to make matches fair.</li>
+      　　<li>Please see <a href="http://vps.sakura.ad.jp/specification/">the information page</a> of virtual private server (VPS) using ベアメタル8G plan hosted by SAKURA Internet Inc..</li>
       </ul>
     </section>
 
@@ -109,7 +110,7 @@
 </p>
 
 <p>Yahoo Japan Corporation<br>
-<a href="https://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
+<a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
 </p>
 
 

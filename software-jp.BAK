@@ -20,6 +20,7 @@
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 <a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>　
@@ -55,8 +56,8 @@
 	  <h2>ソフトウェア</h2>
       <p>SamurAI 3x3 2016 ゲーム関連のソフトウェアとして、以下のものが公開されています。
       <ul>
-	<li><a href="software/samurai-software-20161221.tgz">
-	    SamurAI 3x3 2016 ゲームの実行管理システム</a> (2016年12月21日更新):
+	<li><a href="software/samurai-software-20170207.tgz">
+	    SamurAI 3x3 2016 ゲームの実行管理システム</a> (2017年2月7日更新):
 	  サムライを制御する AI プログラムを呼び出して、ルールにのっとってゲームの進行を管理します。
 	  いくつかの AI プログラムのサンプルも含まれています。
 	  詳しくは README.jp を見てください。
@@ -209,7 +210,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 <!-- 経済産業省<br><br> -->
 文部科学省
 <br><br>
-総務省（予定）
+総務省
             </p>
           </section>
         </td>

@@ -1,5 +1,7 @@
 enchant();
 
+var replay;
+
 // parameters of visualizer
 var xsize;
 var ysize;
@@ -29,6 +31,7 @@ var samuraiImage;
 var scoreScale, scale;
 var scoreLabel;
 var game;
+var commentBoard;
 
 var samurai;
 var field;
@@ -166,7 +169,6 @@ const homePositions = [
 function ParseRecord(log) {
     // init static values
     var json = JSON.parse(log);
-    ;
     TurnPlayer = [];
     title = json.title;
     maxTurn = json.plays.length;
@@ -196,6 +198,7 @@ function ParseRecord(log) {
         samurai[p].home.y = homePositions[p].y;
         samurai[p].home.owner = p;
         samurai[p].home.home = p;
+        samurai[p].done = false;
     }
 
     field[0] = new Array();
@@ -213,10 +216,18 @@ function ParseRecord(log) {
         field[0][samurai[p].home.x][samurai[p].home.y].home = p;
         field[0][samurai[p].home.x][samurai[p].home.y].exist = p;
     }
+    for (turn = 0; turn <= maxTurn; ++turn) {
+        Comment[turn] = "";
+    }
     for (turn = 0; turn < maxTurn; ++turn) {
         var turnPlay = json.plays[turn];
         field[turn + 1] = new Array();
         isTimeout[turn + 1] = -1;
+        if (turn % 6 == 0) {
+            for (p = 0; p < 6; ++p) {
+                samurai[p].done = false;
+            }
+        }
         // Initialize the field for the turn
         for (i = 0; i < fieldx; ++i) {
             field[turn + 1][i] = new Array();
@@ -234,6 +245,10 @@ function ParseRecord(log) {
             }
         }
         var samuraiID = turnPlay.samurai;
+        if (samuraiID < 0 || 3 <= samuraiID) {
+            Comment[turn] = "!!! Weapon ID not in the valid range: " + samuraiID + " at turn " + turn;
+            continue;
+        }
         if (turn % 2 == 1) {
             samuraiID += 3;
         }
@@ -262,6 +277,14 @@ function ParseRecord(log) {
                 break;
             }
             if (action == 0) break;
+            if (samurai[samuraiID].occupiedTurn != -1) {
+                Comment[turn] = "!!! Trying to act under recovery: " + samuraiID + " at turn " + turn;
+                break;
+            }
+            if (samurai[samuraiID].done) {
+                Comment[turn] = "!!! Already played in this period: " + samuraiID + " at turn " + turn;
+                break;
+            }
             if (action > 9) {
                 Comment[turn] = "!!! Invalid action code number: " + action + "at turn " + turn;
                 break;
@@ -271,7 +294,6 @@ function ParseRecord(log) {
                 break;
             }
             cost -= COST[action];
-            if (samurai[samuraiID].occupiedTurn != -1) break;
             if (1 <= action && action <= 4) { // occupy
                 if (samurai[samuraiID].hidden) {
 
@@ -310,7 +332,7 @@ function ParseRecord(log) {
                                 field[turn + 1][tx][ty].exist = -1;
                                 samurai[occupiedID].pos.x = samurai[occupiedID].home.x;
                                 samurai[occupiedID].pos.y = samurai[occupiedID].home.y;
-                                samurai[occupiedID].occupiedTurn = turn + 1;
+                                samurai[occupiedID].occupiedTurn = turn;
                                 field[turn + 1][samurai[occupiedID].pos.x][samurai[occupiedID].pos.y].exist = occupiedID;
                                 field[turn + 1][samurai[occupiedID].pos.x][samurai[occupiedID].pos.y].curing = true;
                             }
@@ -320,7 +342,7 @@ function ParseRecord(log) {
                                     samurai[occupiedID].pos.x = samurai[occupiedID].home.x;
                                     samurai[occupiedID].pos.y = samurai[occupiedID].home.y;
                                     samurai[occupiedID].hidden = false;
-                                    samurai[occupiedID].occupiedTurn = turn + 1;
+                                    samurai[occupiedID].occupiedTurn = turn;
                                     field[turn + 1][samurai[occupiedID].pos.x][samurai[occupiedID].pos.y].exist = occupiedID;
                                     field[turn + 1][samurai[occupiedID].pos.x][samurai[occupiedID].pos.y].curing = true;
                                     field[turn + 1][tx][ty].hidden.splice(k, 1);
@@ -346,6 +368,17 @@ function ParseRecord(log) {
                     Comment[turn] = "!!! Cannot move to out of field" + " at turn " + turn;
                     break;
                 }
+                var moveToAnotherHome = false;
+                for (i = 0; i < 6; ++i) {
+                    if (i == samuraiID) {
+                        continue;
+                    }
+                    moveToAnotherHome |= nx == samurai[i].home.x && ny == samurai[i].home.y;
+                }
+                if (moveToAnotherHome) {
+                    Comment[turn] = "!!! Moving to home of another samurai at turn " + turn;
+                    break;
+                }
                 var owner = field[turn + 1][nx][ny].owner;
                 if (samurai[samuraiID].hidden && (owner == -1 || Math.floor(owner / 3) != turn % 2)) {
                     Comment[turn] = "!!! Cannot move to not our territories under hidden" + " at turn " + turn;
@@ -367,13 +400,9 @@ function ParseRecord(log) {
                     field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].exist = samuraiID;
                 } else {
                     var curField = field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y];
-                    var isExist = false;
-                    curField.exist = -1;
-                    for (var id in curField.hidden) {
-                        if (id == samuraiID) {
-                            isExist = true;
-                        }
-                    }
+                    var isExist = curField.hidden.filter(function (id) {
+                            return id == samuraiID;
+                        }).length == 1;
                     if (!isExist) {
                         curField.hidden.push(samuraiID)
                     }
@@ -381,6 +410,17 @@ function ParseRecord(log) {
             }
             if (action == 9) { // hide & reveal
                 if (samurai[samuraiID].hidden) {
+                    var revealOnAnotherSamurai = false;
+                    for (i = 0; i < 6; ++i) {
+                        if (i == samuraiID) {
+                            continue;
+                        }
+                        revealOnAnotherSamurai |= samurai[samuraiID].pos.x == samurai[i].pos.x && samurai[samuraiID].pos.y == samurai[i].pos.y && !samurai[i].hidden;
+                    }
+                    if (revealOnAnotherSamurai) {
+                        Comment[turn] = "!!! Cannot reveal at the place where another samurai hides" + " at turn " + turn;
+                        break;
+                    }
                     samurai[samuraiID].hidden = false;
                     field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].exist = samuraiID;
                     field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].hidden = field[turn + 1][samurai[samuraiID].pos.x][samurai[samuraiID].pos.y].hidden.filter(function (item, index) {
@@ -412,6 +452,9 @@ function ParseRecord(log) {
                 //}
             }
         }
+        if (samurai[samuraiID].occupiedTurn == -1) {
+            samurai[samuraiID].done = true;
+        }
         // end of cure
         for (p = 0; p < 6; ++p) {
             if (samurai[p].occupiedTurn != -1) {
@@ -424,8 +467,6 @@ function ParseRecord(log) {
                 }
             }
         }
-        Comment[turn + 1] = "";
-
     }
 }
 
@@ -846,12 +887,12 @@ function UpdateField(turn) {
             }
         }
     }
-
     if (Comment[turn] != "\"\"") {
         commentBoard.text = Comment[turn];
     } else {
         commentBoard.text = "";
     }
+
     var score = new Array();
     for (s = 0; s < 7; ++s) {
         score[s] = 0;
@@ -913,6 +954,13 @@ function UpdateField(turn) {
             }
         }
     }
+
+    replay.plays[turn - 1].territories[6] = score[6];
+    if (score.toString() !== replay.plays[turn - 1].territories.toString()) {
+        commentBoard.text += '!!! This viewers may include a BUG. (The scores calculated by this viewer and the game manager are different.)';
+        console.error(score, replay.plays[turn - 1].territories);
+    }
+
     context = scale.context;
     var width = xsize * (fieldx + 1);
     var sum = 0;
@@ -1001,12 +1049,14 @@ function setIconSize(turn) {
 
 function parseLog() {
     if (document.getElementById("hiddenlog").value != "") {
-        log = document.getElementById("hiddenlog").value;
+        replay = log = document.getElementById("hiddenlog").value;
     } else {
         return;
     }
+    initialize();
     ParseRecord(log);
     document.getElementById("turn").max = maxTurn;
     document.getElementById("maxTurn").innerHTML = String(maxTurn);
     setIconSize(curTurn);
 }
+

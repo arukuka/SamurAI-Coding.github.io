@@ -169,6 +169,7 @@ const homePositions = [
 function ParseRecord(log) {
     // init static values
     var json = JSON.parse(log);
+    replay = json;
     TurnPlayer = [];
     title = json.title;
     maxTurn = json.plays.length;
@@ -1049,7 +1050,7 @@ function setIconSize(turn) {
 
 function parseLog() {
     if (document.getElementById("hiddenlog").value != "") {
-        replay = log = document.getElementById("hiddenlog").value;
+        log = document.getElementById("hiddenlog").value;
     } else {
         return;
     }

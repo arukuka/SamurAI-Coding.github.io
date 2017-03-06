@@ -18,8 +18,10 @@
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a>
 <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
+<br>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 <a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>　
@@ -34,6 +36,7 @@
 <a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a>
 <a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="116"/></a>
 </center>
   <nav id="global">
       <ul>
@@ -95,6 +98,9 @@
 
 <p>株式会社レコチョク<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
+
+<p>公益財団法人クマ財団<br>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
 
 <!--
 <p>TIS株式会社<br>
@@ -193,7 +199,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
 
 <br><br>
-<!-- 経済産業省<br><br> -->
+経済産業省<br><br>
 文部科学省
 <br><br>
 総務省

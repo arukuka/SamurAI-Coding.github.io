@@ -18,8 +18,10 @@
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a>
 <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
+<br>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 <a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>　
@@ -34,6 +36,7 @@
 <a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a>
 <a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="116"/></a>
 </center>
   <nav id="global">
       <ul>
@@ -106,6 +109,8 @@
     <section id="news">
       <h2>ニュース</h2>
       <ul>
+<li>3月4日: <a href="software-jp.html">ビジュアライザ</a> が正常に動作しないバグを修正しました。
+<li>3月3日: 療治中のサムライに対する命令が無視された場合、そのピリオドで行動済とするか否かについて、ゲームマネージャとビジュアライザの解釈の不一致があった。命令が無視された場合は行動済としないように<a href="software-jp.html">ビジュアライザ</a> を修正した。
 <li>2月17日: <a href="preliminary-jp.html">オンライン予選に基づく選抜結果を掲載しました。</a> 全136チームから選抜された決勝進出16チームの皆さん、おめでとうございます！ 惜しかった皆さん、ぜひ名古屋で決勝を一緒に観戦しましょう。また懇親会への先着順招待を実施することを検討しています。
 <li>2月12日: オンライン予選への投稿を締め切りました。多くのご投稿、有難うございました。オンライン予選の結果発表は現時点で2017年2月17日（金）AoE頃を予定していますが、変更の場合は本サイト上でお知らせします。
 <li>2月11日: 締め切り時点でコンテストサーバー上に投稿されている全てのAIプログラムがオンライン予選の対象となります。なお、コンテストサーバー上で実施中のTrial Roundにおけるレーティングは、オンライン予選とは関係ありません。オンライン予選は<a href="http://samuraicoding.info/preliminary-jp.html">予選のルール</a>に従って実施されます。
@@ -265,6 +270,9 @@
 <p>株式会社レコチョク<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
 
+<p>公益財団法人クマ財団<br>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
+
 <!--
 <p>TIS株式会社<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
@@ -361,7 +369,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
 
 <br><br>
-<!-- 経済産業省<br><br> -->
+経済産業省<br><br>
 文部科学省
 <br><br>
 総務省

@@ -33,6 +33,7 @@
 <a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a>
 <a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="116"/></a>
 </center>
   <nav id="global">
       <ul>
@@ -107,6 +108,9 @@ AI program that decides the actions of the samurai that plays the games. </p>
 <p>RecoChoku Co.,Ltd.<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
 
+<p>Kuma Foundation<br>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
+
 <!--
 <p>TIS Inc.<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
@@ -155,7 +159,7 @@ Department of Information and Computer Science, Faculty of Science and Technolog
 <a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="60"/></a><br><br>
 -->
 
-This program is supported by the Grant of Kayamori Foundation of International Science Advancement.<br><br>
+This program is partially supported by a grant of Kayamori Foundation of Informational Science Advancement.<br><br>
 
 Graduate School of Information Science, Nagoya University<br>
 <br>
@@ -199,9 +203,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a><br><br>
 -->
 
-<!--
 The Ministry of Economy, Trade and Industry<br><br>
--->
 
 The Ministry of Education, Culture, Sports, Science and Technology
 <br><br>

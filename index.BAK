@@ -18,8 +18,10 @@
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a>
 <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
+<br>
 <a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
 <br>
 <a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
 <a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
@@ -34,6 +36,7 @@
 <a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a>
 <a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
+<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="116"/></a>
 </center>
   <nav id="global">
       <ul>
@@ -116,6 +119,8 @@ and
     <section id="news">
       <h2>News</h2>
       <ul>
+<li>Mar 4: We updated <a href="software.html">the visualizer</a> by fixing a bug to make it work well.
+<li>Mar 3: When a samurai under treatment is ordered some actions which is ignored, the game manager and the visualizer interpret the rule differently on whether or not the samurai should be considered to be placed an order in the period. <a href="software.html">The visualizer</a> has been revised to interpret the ignored orders are not placed int the period.
 <li>Feb 17: <a href="preliminary.html">The result of the online preliminary round is out!</a> 
 Congratulations to all 16 winners (among 136 teams)! 
 For other teams that lost the online preliminary round, 
@@ -260,6 +265,9 @@ All World Final contestants will be presented on the contest site.
 <p>RecoChoku Co.,Ltd.<br>
 <a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
 
+<p>Kuma Foundation<br>
+<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
+
 <!--
 <p>TIS Inc.<br>
 <a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
@@ -352,9 +360,7 @@ The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a><br><br>
 -->
 
-<!--
 The Ministry of Economy, Trade and Industry<br><br>
--->
 
 The Ministry of Education, Culture, Sports, Science and Technology
 <br><br>

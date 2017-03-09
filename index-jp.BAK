@@ -109,6 +109,7 @@
     <section id="news">
       <h2>ニュース</h2>
       <ul>
+<li>3月9日: 3月17日にWorld Finalの対戦があります。<a href="http://live.nicovideo.jp/watch/lv289954681">ニコニコ生放送【情報処理学会チャンネル】</a> にて生中継をご覧いただけます。ぜひ白熱の対戦をお楽しみください！
 <li>3月4日: <a href="software-jp.html">ビジュアライザ</a> が正常に動作しないバグを修正しました。
 <li>3月3日: 療治中のサムライに対する命令が無視された場合、そのピリオドで行動済とするか否かについて、ゲームマネージャとビジュアライザの解釈の不一致があった。命令が無視された場合は行動済としないように<a href="software-jp.html">ビジュアライザ</a> を修正した。
 <li>2月17日: <a href="preliminary-jp.html">オンライン予選に基づく選抜結果を掲載しました。</a> 全136チームから選抜された決勝進出16チームの皆さん、おめでとうございます！ 惜しかった皆さん、ぜひ名古屋で決勝を一緒に観戦しましょう。また懇親会への先着順招待を実施することを検討しています。
@@ -356,10 +357,8 @@ IEEE Japan Office<br>
 一般社団法人人工知能学会<br>
 <a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a><br><br>
 
-<!--
 The Korean Institute of Information Scientists and Engineers<br>
 <a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
--->
             </p>
           </section>
           <section id="backers">

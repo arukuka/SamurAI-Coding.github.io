@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SamurAI 3x3</title>
+    <!-- <script src="js/innersvg.js"></script> -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/enchant.js"></script>
+    <script src="js/ui.enchant.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/game.js"></script>
+  </head>
+  <body>
+    <script>
+      document.body.style.display = 'none';
+      jQuery(function($){$('body').fadeIn(2000)});
+    </script>
+    <div id="enchant-stage"
+	 style="width:960px;height:750px;display:block;"></div>
+    <div id="turn-container" style="font-size:24px;">
+      <div>Turn: <span id="turnNum">0</span>/<span id="maxTurn">0</span></div>
+      <input type="range" id="turn" style="width:940px;" min="0" max="96" step="1" value="0" autocomplete="off" onchange="changeTurn(this.value)">
+    </div>
+    <div id="delay-container" style="font-size:24px;">
+      <input type="range" id="delay" style="width:940px;" min="3" max="100" step="1" autocomplete="off" onchange="changeDelay(this.value)">
+    </div>
+    <script>
+      showGame();
+    </script>
+  </body>
+</html>

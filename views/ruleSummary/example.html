@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SamurAI 3x3 2016 Match Example</title>
+    <script src="exampleMatch.js"></script>
+    <script src="sampleGame1.js"></script>
+  </head>
+  <body>
+    <script>
+      sessionStorage.gameLog1 = JSON.stringify(sampleGameLog1);
+      sessionStorage.player0 = "Aichi";
+      sessionStorage.player1 = "Nagoya";
+      sessionStorage.playerIcon0 = "logos/aichi.png";
+      sessionStorage.playerIcon1 = "logos/nagoya.png";
+      sessionStorage.gameNumber = 1;
+      sessionStorage.firstGameScores = "[43, 52]";
+      sessionStorage.gameTitle = "Sample Match";
+      sessionStorage.nextPage = "file:tournament.html";
+      window.location.href = "file:../gameview.html";
+    </script>
+    <svg id="example"> </svg>
+    <script>
+      exampleMatch();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SamurAI 3x3 2016 Rule Summary</title>
+  </head>
+  <body>
+    <h1>SamurAI 3x3 3016 Game Rule Summary (3/3)</h1>
+    <big><big><ul>
+	  <li>Enemy samurai in occupied cells are <b>injured.</b><br>
+	    They are moved back to their home positions,
+	    and <b>cannot move for next 18 turns.</b></li>
+	  <li><b>Vision is limited</b> to cells around friend army.<br>
+	    Click the image below to see views of each army.
+	    <div style="margin-left: 80px; padding: 10px">
+	      <image id="vision" src="view-full.png" height="350"/>
+	    </div></li>
+	  </li>
+	  <li>Each samurai can take action once in one period of six turns.</li>
+	  <li><b>One game</b> consists of eight periods = <b>96 turns.</b></li>
+	  <li>A match consists of <b>two games with alternate first player.</b></li>
+	  <li>The wide with larger <b>total territories of two games wins</b> the match.</li>
+	  <li><a href="../opening.html">Back to the top page.</a></li>
+    </ul></big></big>
+    <script>
+      const img = document.getElementById("vision");
+      const imageSources = ['view-full.png', 'view-red.png', 'view-blue.png' ];
+      var imageIndex = 0;
+      img.addEventListener("click",
+      function (evt) { img.src = imageSources[++imageIndex%3]; });
+    </script>
+  </body>
+</html>

@@ -57,8 +57,10 @@
 
 <h2>決勝</h2>
 
-2017年3月17日（金）に名古屋大学にて決勝を開催します。
+<p>
+2017年3月17日（金）に名古屋大学にて決勝を開催しました。
 <a href="http://www.ipsj.or.jp/event/taikai/79">情報処理学会第79回全国大会併催</a>となります。
+</p>
 
 <h3>スケジュール</h3>
 
@@ -73,7 +75,9 @@
 
 <h3>生中継</h3>
 
+<p>
 <a href="http://live.nicovideo.jp/watch/lv289954681">ニコニコ生放送【情報処理学会チャンネル】</a> にて生中継をご覧いただけます。ぜひ白熱の対戦をお楽しみください！
+</p>
 
 <h3>ルール</h3>
 <ul>
@@ -82,7 +86,37 @@
 
 <h3>結果＆提出プログラム</h3>
 
-(TBD)
+当日の<a href="views/opening.html">ゲーム説明ならびに対戦の模様</a>をまとめましたのでご覧ください
+（注記: Chrome, FireFox, IE にて動作確認。ブラウザによっては音が出ないなどの場合あり）。
+結果は下記になります。5位から8位については予選の結果に基づき決定しました。また、企業賞は以下の4チームに授与されました。おめでとうございます。
+
+<ul>
+<li>株式会社レコチョク RecoChoku Co.,Ltd.: remin, Gachapiso （ガチャピソ）
+<li>株式会社いい生活 e-Seikatsu Co.,Ltd.: ys, Serval-chan （サーバルちゃん）
+</ul>
+
+<table>
+	<tr>
+		<th>Place (rank)</th>
+		<th>Team name</th>
+        </tr>
+<tr><td>1</td><td>ys</td></tr>
+<tr><td>2</td><td>Serval-chan (サーバルちゃん)</td></tr>
+<tr><td>3</td><td>Chinojo (ちのじょ)</td></tr>
+<tr><td>4</td><td>sumoru</td></tr>
+<tr><td>5</td><td>suikkee</td></tr>
+<tr><td>6</td><td>kasuka</td></tr>
+<tr><td>7</td><td>remin</td></tr>
+<tr><td>8</td><td>Gachapiso (ガチャピソ)</td></tr>
+<tr><td>Finalist</td><td>nhho</td></tr>
+<tr><td>Finalist</td><td>uptoyou</td></tr>
+<tr><td>Finalist</td><td>Ryoto</td></tr>
+<tr><td>Finalist</td><td>motono</td></tr>
+<tr><td>Finalist</td><td>natadecoco</td></tr>
+<tr><td>Finalist</td><td>K2</td></tr>
+<tr><td>Finalist</td><td>y_kawano</td></tr>
+<tr><td>Finalist</td><td>Setter</td></tr>
+</table>
 
 <hr>
 <footer>

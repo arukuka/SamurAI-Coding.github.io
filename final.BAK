@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <!--#include virtual="commonhead.html" -->
 <head>
@@ -56,7 +56,9 @@
 
 <h2>Final Round</h2>
 
+<p>
 On March 17, World Final Round will be held in Nagoya (collocated with 79th IPSJ National Convention at <a href="http://en.nagoya-u.ac.jp/access/index.html">Nagoya University, Higashiyama Campus</a>).</li>
+</p>
 
 <h3>Schedule</h3>
 
@@ -71,7 +73,9 @@ On March 17, World Final Round will be held in Nagoya (collocated with 79th IPSJ
 
 <h3>Broadcasting</h3>
 
+<p>
 If you do not come to the contest site, you can still enjoy the contest by watching <a href="http://live.nicovideo.jp/watch/lv289954681">NicoNicoVideo Broadcasting</a>. Watch the world final together!
+</p>
 
 <h3>Rules</h3>
 
@@ -81,7 +85,37 @@ If you do not come to the contest site, you can still enjoy the contest by watch
 
 <h3>Results and Submitted Program</h3>
 
-(TBD)
+Introduction of the game and the match results are <a href="views/opening.html">available here </a> 
+(NOTE: we confirmed its functionality on Chrome, FireFox and IE).
+Results are shown below. 5th-8th places were decided based on the result of the online preliminary round. Moreover, special prizes are given to the following four teams by sponsors. Congratulations to all winners and world finalists! 
+
+<ul>
+<li>株式会社レコチョク RecoChoku Co.,Ltd.: remin, Gachapiso （ガチャピソ）
+<li>株式会社いい生活 e-Seikatsu Co.,Ltd.: ys, Serval-chan （サーバルちゃん）
+</ul>
+
+<table>
+	<tr>
+		<th>Place (rank)</th>
+		<th>Team name</th>
+        </tr>
+<tr><td>1</td><td>ys</td></tr>
+<tr><td>2</td><td>Serval-chan (サーバルちゃん)</td></tr>
+<tr><td>3</td><td>Chinojo (ちのじょ)</td></tr>
+<tr><td>4</td><td>sumoru</td></tr>
+<tr><td>5</td><td>suikkee</td></tr>
+<tr><td>6</td><td>kasuka</td></tr>
+<tr><td>7</td><td>remin</td></tr>
+<tr><td>8</td><td>Gachapiso (ガチャピソ)</td></tr>
+<tr><td>Finalist</td><td>nhho</td></tr>
+<tr><td>Finalist</td><td>uptoyou</td></tr>
+<tr><td>Finalist</td><td>Ryoto</td></tr>
+<tr><td>Finalist</td><td>motono</td></tr>
+<tr><td>Finalist</td><td>natadecoco</td></tr>
+<tr><td>Finalist</td><td>K2</td></tr>
+<tr><td>Finalist</td><td>y_kawano</td></tr>
+<tr><td>Finalist</td><td>Setter</td></tr>
+</table>
 
 <hr>
 <footer>

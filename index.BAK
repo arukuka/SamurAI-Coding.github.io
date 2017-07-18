@@ -164,7 +164,7 @@ All World Final contestants will be presented on the contest site.
 <p>Contestants can choose a certain programming language among various major languages. </p>
 </section>
     <section class="centered">
-      <img src="snapshot.png" width=60% />
+      <!-- <img src="snapshot.png" width=60% /> -->
     </section>
 
     <section id="committee">

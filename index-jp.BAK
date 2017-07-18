@@ -3,9 +3,9 @@
   <!--#include virtual="commonhead.html" -->
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="SamurAI Coding 2016-17">
+  <meta name="description" content="SamurAI Coding 2017-18">
   <meta name="author" content="Hironori Washizaki">
-  <title>SamurAI Coding 2016-17</title>
+  <title>SamurAI Coding 2017-18</title>
   <link rel="stylesheet" href="stylesheets/default.css">
 </head>
 
@@ -15,39 +15,17 @@
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
-<a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a>
-<a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a>
-<a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
-<br>
-<a href="http://www.fujitsu.com/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
-<a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a>
-<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
-<br>
-<a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
-<a href="http://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>　
-<a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a>
-<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a>
-<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a>
-<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="75"/></a>
-<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="75"/></a>
-<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="75"/></a>
-<a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="65"/></a>
-<a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
-<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a>
-<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
-<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="116"/></a>
 </center>
   <nav id="global">
       <ul>
         <li><a href="index-jp.html">ホーム</a></li>
-        <li><a href="schedule-jp.html">日程</a></li>
-        <li><a href="rules-jp.html">ルール</a></li>
-        <li><a href="software-jp.html">ソフトウェア</a></li>
-        <li><a href="https://arena.ai-comp.net/">参加登録</a></li>
-        <li><a href="preliminary-jp.html">予選</a></li>
-        <li><a href="final-jp.html">決勝</a></li>
-        <li><a href="faq-jp.html">FAQ</a></li>
+        <li>日程</li> <!-- <a href="schedule-jp.html">日程</a></li> -->
+        <li>ルール</li> <!-- <a href="rules-jp.html">ルール</a></li> -->
+        <li>ソフトウェア</li> <!-- <a href="software-jp.html">ソフトウェア</a></li> -->
+        <li>参加登録</li> <!-- <a href="https://arena.ai-comp.net/">参加登録</a></li> -->
+        <li>予選</li> <!-- <a href="preliminary-jp.html">予選</a></li> -->
+        <li>決勝</li> <!-- <a href="final-jp.html">決勝</a></li> -->
+        <li>FAQ</li> <!-- <a href="faq-jp.html">FAQ</a></li> -->
         <li><a href="sponsor-jp.html">スポンサー</a></li>
         <li><a href="index.html">English</a></li>
       </ul>
@@ -56,10 +34,10 @@
 <hr/>
 
     <section id="main">
-      <h2>情報処理学会 国際 人工知能プログラミングコンテスト: SamurAI Coding 2016-17</h2>
-      <p>インターネット・IoT産業および人工知能技術の急速な発展によるエンジニアの質と量の確保がますます重要となっています。情報処理学会は若い世代から将来第一線の研究者や開発者になりうる、また世界市場を舞台に活躍できる人材を育てることを目的として、国際的なAIプログラミングコンテスト "SamurAI Coding" を 2012 年度、2013 年度、2014 年度および 2015 年度に開催いたしました（<a href="http://www.ipsj.or.jp/event/samuraicoding/2013/2012photos.html">2012年度決勝の様子</a>、
-	<a href="http://www.ipsj.or.jp/event/samuraicoding/2013/final-result-jp.html">2013年度決勝の結果</a>、<a href="http://www.ipsj.or.jp/event/samuraicoding/2014-15/">2014年度の結果</a>、<a href="http://www.ipsj.or.jp/event/samuraicoding/2015-16/">2015年度の結果</a>）。</p>
-      <p>今年度も SamurAI Coding 2016-17 を開催いたします。ゲームをテーマにした人工知能およびプログラミングのスキルを競い、予選を勝ち抜いたチームが2017年3月に名古屋市で開催される決勝へ進みます。決勝は<a href="http://www.ipsj.or.jp/event/taikai/79/">情報処理学会 第79回全国大会</a>
+      <h2>情報処理学会 国際 人工知能プログラミングコンテスト: SamurAI Coding 2017-18</h2>
+      <p>インターネット・IoT産業および人工知能技術の急速な発展によるエンジニアの質と量の確保がますます重要となっています。情報処理学会は若い世代から将来第一線の研究者や開発者になりうる、また世界市場を舞台に活躍できる人材を育てることを目的として、国際的なAIプログラミングコンテスト "SamurAI Coding" を 2012 年度、2013 年度、2014 年度、2015 年度、および 2016 年度に開催いたしました（<a href="http://www.ipsj.or.jp/event/samuraicoding/2013/2012photos.html">2012年度決勝の様子</a>、
+	<a href="http://www.ipsj.or.jp/event/samuraicoding/2013/final-result-jp.html">2013年度決勝の結果</a>、<a href="http://www.ipsj.or.jp/event/samuraicoding/2014-15/">2014年度の結果</a>、<a href="http://www.ipsj.or.jp/event/samuraicoding/2015-16/">2015年度の結果</a>、<a href="http://www.ipsj.or.jp/event/samuraicoding/2016-17/">2016年度の結果</a>）。</p>
+      <p>今年度も SamurAI Coding 2017-18 を開催いたします。ゲームをテーマにした人工知能およびプログラミングのスキルを競い、予選を勝ち抜いたチームが2018年3月に東京・早稲田大学で開催される決勝へ進みます。決勝は<a href="http://www.ipsj.or.jp/event/taikai/80/">情報処理学会 第80回全国大会</a>
 	に併設されます。参加エンジニア・プログラマはその能力が世界で通用するか本コンテストを通じて試すことができます。</p>
     </section>
 
@@ -71,74 +49,10 @@
 </td>
 </tr>
 </table>
-<!--
-    <section id="sponsors">
-    <h2>スポンサー＆サポーター</h2>
-<p>
-<table cellpadding="10" align="center">
-<tr align="center">
-<td>株式会社いい生活</td>
-<td>株式会社日立製作所</td>
-<td>株式会社レコチョク</td>
-<td>TIS株式会社</td>
-<td> </td>
-</tr>
-<tr>
-<td><center><a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="150"/></a></center></td>
-<td><center><a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="135"/></a></center></td>
-<td><center><a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="160"/></a></center></td>
-<td><center><a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a></center></td>
-</tr>
-<tr align="center">
-<td>ヴォーカル・スクールヴィーナス</td>
-<td>富士通株式会社</td>
-<td>クレイ・ジャパン・インク</td>
-<td>株式会社ジースタイラス</td>
-<td><a href="https://moneyforward.com/">株式会社マネーフォワード</a></td>
-</tr>
-<tr>
-<td><center><a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a></center></td>
-<td><center><a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="80"/></a></center></td>
-<td><center><a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a></center></td>
-<td><center><a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="60"/></a></center></td>
-</tr>
-</table>
-</p>
-    </section>
--->
     <section id="news">
       <h2>ニュース</h2>
       <ul>
-<li>3月9日: 情報処理学会全国大会併設の決勝 World Finalの進行を掲載しました。ぜひご一緒に、白熱の試合を観戦しましょう！
-<li>3月9日: 3月17日にWorld Finalの対戦があります。<a href="http://live.nicovideo.jp/watch/lv289954681">ニコニコ生放送【情報処理学会チャンネル】</a> にて生中継をご覧いただけます。ぜひ白熱の対戦をお楽しみください！
-<li>3月4日: <a href="software-jp.html">ビジュアライザ</a> が正常に動作しないバグを修正しました。
-<li>3月3日: 療治中のサムライに対する命令が無視された場合、そのピリオドで行動済とするか否かについて、ゲームマネージャとビジュアライザの解釈の不一致があった。命令が無視された場合は行動済としないように<a href="software-jp.html">ビジュアライザ</a> を修正した。
-<li>2月17日: <a href="preliminary-jp.html">オンライン予選に基づく選抜結果を掲載しました。</a> 全136チームから選抜された決勝進出16チームの皆さん、おめでとうございます！ 惜しかった皆さん、ぜひ名古屋で決勝を一緒に観戦しましょう。また懇親会への先着順招待を実施することを検討しています。
-<li>2月12日: オンライン予選への投稿を締め切りました。多くのご投稿、有難うございました。オンライン予選の結果発表は現時点で2017年2月17日（金）AoE頃を予定していますが、変更の場合は本サイト上でお知らせします。
-<li>2月11日: 締め切り時点でコンテストサーバー上に投稿されている全てのAIプログラムがオンライン予選の対象となります。なお、コンテストサーバー上で実施中のTrial Roundにおけるレーティングは、オンライン予選とは関係ありません。オンライン予選は<a href="http://samuraicoding.info/preliminary-jp.html">予選のルール</a>に従って実施されます。
-<li>2月8日: リソース制限の追加に伴って発生していた新規にAIプログラムをアップロードできなくなる問題を解決しました。
-<li>2月7日: 試合の公平性を高める目的で、各AIプログラムに対して、CPUを1コア、メモリを1GBとするリソース制限を追加しました。
-<li>2月7日: サーバー障害の発生を防ぐ目的で<a href="software-jp.html">ゲームの実行管理システム</a>を更新しました。
-<li>2月5日: 障害発生の期間中にアップロードされたAIプログラムが破損していることが判明しました。破損したAIプログラムの復旧は不可能であるため、大変お手数をお返しますが最新版を再投稿ください。また、環境の更新に伴い不具合が生じる可能性があるため、お気づきの点がございましたら、ご連絡ください。
-<li>2月5日: サーバー移転に伴う問題が生じているようで、現在、原因を究明中です。
-<li>2月5日: サーバーの移転作業が完了しました。移転に伴い、<a href="HardwareInfo.html">ハードウェア環境</a>および<a href="SoftwareInfo.html">ソフトウェア環境</a>が変更になりましたので、ご確認ください。
-<li>2月5日: 現在、サーバーの移転作業に取り組んでいますが、過去のデータの復旧に時間がかかっており、再開の目処は今のところ立っていません。
-<li>2月4日: 対戦頻度を上げたことが原因で、コンテストサーバーに障害が発生しました。現在、サーバーの移転作業に取り組んでいますが、今のところ復旧の目処は立っていません。
-<li>2月1日: コンテストサーバーは現在不安定な状態が続いています。委員会として本問題の解決に取り組んでいるところです。
-<li>2月1日: コンテストサーバーにおける対戦頻度を上げました。
-<li>1月14日: コンテストサーバーの不調により1月10-13日においてAIプログラムの実行に失敗するなどの現象を生じていました。
-<li>12月24日: ビジュアライザの問題を修正しました。
-<li>12月22日: <a href="final-jp.html">決勝ラウンドのルール</a>（12月22日版）を公開しました。
-        <li>12月2日: オンライン予選への<a href="https://arena.ai-comp.net/">参加登録受付</a>を開始しました。ぜひご参加ください。
-        <li>11月25日: ゲームの実行管理システムとビジュアライザを更新しました。<a href="software-jp.html">ソフトウェア</a> を参照ください。
-        <li>11月21日: ビジュアライザを <a href="software-jp.html">ソフトウェア</a> に公開しました。
-      	<li>11月11日: ゲームの実行管理システムを更新しました。<a href="software-jp.html">ソフトウェア</a> を参照ください。
-      	<li>11月1日: ゲームの実行管理システムを <a href="software-jp.html">ソフトウェア</a> に公開しました。
-      	<li>10月21日: 特典について更新しました。
-      	<li>10月10日: <a href="rules-jp.html">ゲームルール</a>を更新しました。
-      	<li>9月3日: <a href="sponsor-jp.html">スポンサー募集</a>を開始しました。
-      	<li>9月3日: <a href="rules-jp.html">ゲームルール</a>を公開しました。
-        <li>9月2日: 本予告サイトを立ち上げました。
+        <li>7月18日: 本予告サイトを立ち上げました。
       </ul>
     </section>
 
@@ -147,7 +61,7 @@
 <p>
 年齢制限はありません。どなたでもご参加いただけます。
 個人、またはチーム（メンバー数上限なし）のいずれの形でもご参加いただけます。
-<a href="https://arena.ai-comp.net/">参加登録サイト</a>からぜひ登録ならびにプログラムを提出ください。
+参加登録サイトからぜひ登録ならびにプログラムを提出ください。
 </p>
     </section>
 
@@ -157,27 +71,27 @@
       <b>予選応募者（決勝出場者を含む）</b>
 
 <p>
-予選応募者は、成績によらず決勝当日夜の懇親会に出席できます（ただし先着順、人数制限あり）。
+予選応募者は、成績によらず決勝当日夜の懇親会に出席できます（ただし先着順、人数制限あり）（予定）。
 予選応募者や決勝出場者、スポンサー企業の皆様等との交流の場として懇親会を設けます。
 </p>
 
 <p>
-学生の方は、<a href="http://www.ipsj.or.jp/event/taikai/79/">全国大会申込サイト</a>で別途申し込むことで第79回全国大会を無料聴講できます。
+学生の方は、<a href="http://www.ipsj.or.jp/event/taikai/80/">全国大会申込サイト</a>で別途申し込むことで第79回全国大会を無料聴講できます（予定）。
 </p>
 
 <b>決勝出場者</b>
 
 <p>
-決勝における上位表彰者には副賞が提供されます。さらに、スポンサーから企業賞や景品が提供される予定です。
+決勝における上位表彰者には副賞が提供されます（予定）。さらに、スポンサーから企業賞や景品が提供される予定です。
 </p>
 <p>
 決勝出場者については、情報処理学会非会員の場合に情報処理学会の入会金（正会員のみ）および一年間の会費が無料となり、
-一年間の会員権を得ます。
+一年間の会員権を得ます（予定）。
 会員権には、情報処理学会デジタルライブラリへのアクセス権利も含まれます。
 </p>
 
 <p>
-遠方から参加の決勝出場者・チームは、1チームにつき最大1名について決勝への旅費補助を受けられます。昨年度は、海外チームは10万円を上限として、国内チームは遠方からの参加の場合に実費相当を支援しました。今年度は変更の可能性があります。
+遠方から参加の決勝出場者・チームは、1チームにつき最大1名について決勝への旅費補助を受けられます（予定）。昨年度は、海外チームは10万円を上限として、国内チームは遠方からの参加の場合に実費相当を支援しました。今年度は変更の可能性があります。
 </p>
 
 <p>
@@ -189,11 +103,10 @@
     <section id="importantdates">
       <h2>主要日程</h2>
       <ul>
-        <li>ルール公開：2016年9-10月</li>
-        <li>オンライン予選 募集締切：2017年2月12日（日）20:59（日本時間）</li>
-        <li>オンライン予選 結果発表：2017年2月17日（金）頃 ※16チーム選抜（うち最大5チームは多様性および地域バランス等を考慮した特別選抜枠の予定）
-</li>
-        <li>決勝（於 名古屋大学） 　　：2017年3月17日（金）　※<a href="http://www.ipsj.or.jp/event/taikai/79">情報処理学会第79回全国大会併催</a></li>
+        <li>ルール公開：2017年9-10月</li>
+        <li>オンライン予選 募集締切：2018年（日本時間）</li>
+        <li>オンライン予選 結果発表：2018年頃 <!-- ※16チーム選抜（うち最大5チームは多様性および地域バランス等を考慮した特別選抜枠の予定）--></li>
+        <li>決勝（於 早稲田大学） 　　：2018年3月14日（金）　※<a href="http://www.ipsj.or.jp/event/taikai/80">情報処理学会第80回全国大会併催</a></li>
       </ul>
     </section>
 
@@ -203,11 +116,9 @@
         本コンテストではAIプログラム同士をゲーム上で戦わせる対戦型AIプログラミングを実施します。
         参加者はプログラミングスキルに加えて、
         アルゴリズムやAIストラテジーの設計スキルで競い合います。
-        <a href="rules-jp.html">ゲーム内容「SamurAI 3×3（サムライ・スリー・オン・スリー）2016」</a>は、
-        異なる武器を使う3人のサムライが軍団を組み、同じく3人のサムライからなる相手軍団と対戦して、獲得した領地の広さを競うゲームです。競技参加者は同一軍団の3人のサムライの動作を決めるAIプログラムを作成します。
       </p>
       <p>
-        プログラミング言語としては、C++、Java、Pythonを含む様々な主要な言語の中から自由に選ぶことができます。利用可能な言語は<a href="https://github.com/AI-comp/ai-comp.github.com/blob/master/doc/available_languages.md">こちらをご確認ください</a>。
+        プログラミング言語としては様々な主要な言語の中から自由に選ぶことができます（予定）。
       </p>
     </section>
 
@@ -224,19 +135,15 @@
 坂本一憲（国立情報学研究所）,
 田中哲朗（東京大学）,
 三輪 誠（豊田工業大学），
-大場みち子（はこだて未来大学）,
+河内谷清久仁（日本アイ・ビー・エム）,
 深澤紀子（鉄道総合技術研究所）,
-鈴木 浩（富士通研究所）
+鈴木 浩（富士通研究所）,
+大塚 信吾（豊橋技術科学大学）
 </p>
-<h2>ゲーム開発チーム（2015年度）</h2>
-<p>
-亀甲 博貴（東京大学）、
-川上 裕生（東京大学）、
-鈴木 遼（早稲田大学）、
-橋本 和真（東京大学）、
-横井 泰佑（早稲田大学）、
-劉 雲青（東京大学）
-</p>
+
+      <h2>ゲーム設計・開発協力</h2>
+<p>大塚 信吾（豊橋技術科学大学）</p>
+
     </section>
 
 <hr/>
@@ -257,122 +164,25 @@
         <td width="300">
           <section id="sponsors">
             <h3>ゴールドスポンサー</h3>
-            <p>株式会社いい生活<br>
-            <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a></p>
-            <p>チームラボ株式会社<br>
-            <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a></p>
-
-<p>株式会社日立製作所<br>
-<a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a></p>
-
-<p>富士通株式会社<br>
-<a href="http://www.fujitsu.com/jp/"><img src="images/fujitsu-logo.jpg" width="140"/></a>
-</p>
-
-<p>株式会社レコチョク<br>
-<a href="http://recochoku.jp/"><img src="images/RecoChoku.png" width="172"/></a></p>
-
-<p>公益財団法人クマ財団<br>
-<a href="https://kuma-foundation.org/"><img src="images/KUMA2.png" width="140"/></a>
-
-<!--
-<p>TIS株式会社<br>
-<a href="https://www.tis.co.jp/"><img src="images/tis.png" width="150"/></a>
-</p>
--->
 
             <h3>サポーター</h3>
 
-<p>株式会社日本レジストリサービス（JPRS）<br>
-<a href="https://jprs.co.jp/"><img src="images/jprs.jpg" width="100"/></a>
-</p>
-
-<p>ヤフー株式会社<br>
-<a href="https://www.yahoo.co.jp/"><img src="images/Yahoo.gif" width="95"/></a>
-</p>
-
-<!--
-<p>ヴォーカル・スクール ヴィーナス<br>
-<a href="http://vocal.venus.to/"><img src="images/vocal-venus-logo.gif" width="60"/></a>
-</p>
-
-<p>クレイ・ジャパン・インク<br>
-<a href="http://wwwjp.cray.com/"><img src="images/cray_logo_registered_.png" width="80"/></a>
-</p>
--->
-
 <h3>メディアスポンサー</h3>
 
-            <p>株式会社ジースタイラス<br>
-            <a href="http://www.gstylus.co.jp/"><img src="images/gyaku_logo.jpg" width="75"/></a></p>
 
-<!--
-<p><a href="https://moneyforward.com/">株式会社マネーフォワード</a></p>
--->
           </section>
         </td>
         <td>
           <section id="supporters">
             <h3>協賛</h3>
             <p class="smaller">
-<!--
-China Computer Federation<br>
-<a href="http://www.ccf.org.cn/"><img src="images/CCF.gif" title="China Computer Federation" width="80"/></a><br><br>
-
-慶應義塾大学理工学部情報工学科<br>
-<a href="https://www.ics.keio.ac.jp/"><img src="images/Keio.png" title="Department of Information and Computer Science, Faculty of Science and Technology, Keio University" width="60"/></a><br><br>
--->
-
-本事業は、公益財団法人栢森情報科学振興財団による助成を受けています。<br><br>
-
-名古屋大学 大学院 情報科学研究科<br>
+早稲田大学 大学院 基幹理工学研究科 情報理工・情報通信専攻（予定）<br>
 <br>
-
-IEEE Computer Society<br>
-<a href="http://www.computer.org/web/guest"><img src="images/ComputerSocietyLogo-RGB-stacked.gif" title="IEEE Computer Society" width="95"/></a><br><br>
-
-IEEE Computer Society Japan Chapter<br><br>
-
-IEEE Japan Office<br>
-<a href="http://jp.ieee.org/"><img src="images/IEEE.jpg" title="IEEE Japan Office" width="65"/></a><br><br>
-
-財団法人 情報科学国際交流財団<br><br>
-
-一般社団法人電子情報技術産業協会<br>
-<a href="http://www.jeita.or.jp/"><img src="images/JEITA.jpg" title="Japan Electronics and Information Technology Industries Association" width="75"/></a><br><br>
-
-一般社団法人情報サービス産業協会<br>
-<a href="http://www.jisa.or.jp/"><img src="images/JISA.png" title="Japan Information Technology Services Industry Association" width="75"/></a><br><br>
-
-一般社団法人日本ソフトウェア科学会<br>
-<a href="http://www.jssst.or.jp/"><img src="images/JSSST.gif" title="Japan Society for Software Science and Technology" width="75"/></a><br><br>
-
-一般社団法人日本情報システム・ユーザー協会<br>
-<a href="http://www.juas.or.jp/"><img src="images/JUAS.png" title="Japan Users Association of Information Systems" width="65"/></a>
-<br><br>
-
-一般社団法人電子情報通信学会<br>
-<a href="http://www.ieice.org/"><img src="images/IEICE.bmp" title="The Institute of Electronics, Information and Communication Engineers" width="45"/></a>
-<br><br>
-
-一般社団法人人工知能学会<br>
-<a href="http://www.ai-gakkai.or.jp/"><img src="images/JSAI.png" title="The Japanese Society for Artificial Intelligence" width="55"/></a><br><br>
-
-The Korean Institute of Information Scientists and Engineers<br>
-<a href="http://kiise.or.kr/"><img src="images/KIISE.jpg" title="The Korean Institute of Information Scientists and Engineers" width="180"/></a>
             </p>
           </section>
           <section id="backers">
             <h3>後援</h3>
             <p class="smaller">
-独立行政法人情報処理推進機構<br>
-<a href="http://www.ipa.go.jp/"><img src="images/IPA.png" title="Information-technology Promotion Agency, Japan" width="85"/></a>
-
-<br><br>
-経済産業省<br><br>
-文部科学省
-<br><br>
-総務省
             </p>
           </section>
         </td>

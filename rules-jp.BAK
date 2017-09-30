@@ -15,6 +15,7 @@
 <center>
   <img src="images/samurailogo.png" width="391" height="90" alt="" title=""/><br>
   <a href="http://www.ipsj.or.jp/english/index.html"><img src="images/IPSJ_logoC_M.gif" title="logo_ipsj" width="200"/></a><br>
+<!--
 <a href="http://www.e-seikatsu.info/"><img src="images/e-Seikatsu.png" width="160"/></a>
 <a href="http://www.team-lab.com/"><img src="images/teamLab.png" width="110"/></a>
 <a href="http://www.hitachi.co.jp/"><img src="images/ea60010030dmac.png" width="150"/></a>
@@ -43,7 +44,7 @@
         <li><a href="index-jp.html">ホーム</a></li>
         <li>日程</li> <!-- <a href="schedule-jp.html">日程</a></li> -->
         <li><a href="rules-jp.html">ルール</a></li>
-        <li>ソフトウェア</li> <!-- <a href="software-jp.html">ソフトウェア</a></li> -->
+        <li><a href="software-jp.html">ソフトウェア</a></li>
         <li>参加登録</li> <!-- <a href="https://arena.ai-comp.net/">参加登録</a></li> -->
         <li>予選</li> <!-- <a href="preliminary-jp.html">予選</a></li> -->
         <li>決勝</li> <!-- <a href="final-jp.html">決勝</a></li> -->

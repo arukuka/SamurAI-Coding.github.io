@@ -31,11 +31,11 @@ For more details, click the "Help" button to browse the manual page.
 
 3. Documents
 
-documents ディレクトリには以下の文書が入っています。
+The "documents" directory contains the following documents.
 
   rule-en.pdf: Game rule draft
   rule-jp.pdf: Game rule draft (in Japanese)
-  datafiles.pdf: Desciption of file formats
+  datafiles.pdf: Desciption of data file formats
 
 4. Installation
 
